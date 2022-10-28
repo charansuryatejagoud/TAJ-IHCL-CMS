@@ -64,6 +64,6 @@ export default{
             of: [{ type: 'card' }
                ],
                group: 'main'
-        }
+        },
     ]
 }

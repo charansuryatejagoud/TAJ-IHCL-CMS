@@ -26,7 +26,9 @@ import Bottom from "./Homepage/Bottom";
 import header1 from "./Homepage/header1";
 import Herobanner from "./Homepage/Banner";
 import Tab from "./Detailspage2/Tab";
-// import Dpage2 from "./Detailspage2/Dpage2";
+import Carousel from "./Detailspage2/Carousel";
+
+
 
 
 
@@ -38,5 +40,5 @@ export default createSchema({
   name: "default",
   types: schemaTypes.concat([Header,Card,Chatbot,Icons,Navigation,Button1,Button2,
     Footer,ctalabel,Items,Quicklinks,Support,Pages,Brands,Fields,Search,Bottom,
-    Instagrambutton,Videobutton,Downloadbuttons,Group,header1,Herobanner,Tab]),});
+    Instagrambutton,Videobutton,Downloadbuttons,Group,header1,Herobanner,Tab,Carousel,]),});
  

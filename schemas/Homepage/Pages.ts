@@ -27,7 +27,8 @@ import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default {
             of: [{ type: 'group' },
                  { type: 'card' },
                  { type: 'banner' },
-                 { type: 'tabs' }
+                 { type: 'tabs' },
+                 { type: 'carousel'}
            ]
         },
         {

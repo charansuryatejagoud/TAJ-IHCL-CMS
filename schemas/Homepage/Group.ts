@@ -5,6 +5,9 @@ export default{
     type: 'object',
 
     icon: Icon,
+    initialValue:{
+        titleAlignment:"regular"
+    },
     groups: [
         { name: 'main', title: 'Main', icon: IoApps },
         
@@ -50,6 +53,7 @@ export default{
            name:"titleAlignment",
            title:"Title Alignment",
            type:"string",
+          
            options:{
             // styles:[
             //     {

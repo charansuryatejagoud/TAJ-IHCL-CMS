@@ -37,7 +37,7 @@
             {title: 'Strong', value: 'strong'},
             {title: 'Emphasis', value: 'em'},
           ],
-          // Annotations can be any object structure – e.g. a link or a footnote.
+        
           annotations: [
             {
               title: 'URL',

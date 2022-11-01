@@ -18,7 +18,7 @@ import Support from "./Homepage/Support";
 import Pages from "./Homepage/Pages";
 import Brands from "./Homepage/Brands";
 import Fields from "./Homepage/Fields";
-import Instagrambutton from "./Homepage/Instagrambutton";
+import Instagrambutton from "./Homepage/InstagramButton";
 import Downloadbuttons from "./Homepage/Downloadbuttons";
 import Group from "./Homepage/Group";
 import Bottom from "./Homepage/Bottom";

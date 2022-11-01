@@ -1,4 +1,3 @@
-
 export default{ 
     title: 'Tabs',
     name: 'tabs',
@@ -8,7 +7,6 @@ export default{
             title: 'Title',
             name: 'title',
             type: 'string',
-           
         },
         {
             title: 'Group',

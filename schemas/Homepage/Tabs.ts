@@ -1,7 +1,9 @@
+import { BsArrowReturnRight } from "react-icons/bs";
 export default{
     name:"tabs",
     title:"Tabs",
     type:"document",
+    icon:BsArrowReturnRight,
     fields:[
         {
             name:"title",
@@ -28,6 +30,12 @@ export default{
             of:[
                 {
                     type:"tab"
+                },
+                {
+                    type:'group'
+                },
+                {
+                    type:'card'
                 }
             ]
         },

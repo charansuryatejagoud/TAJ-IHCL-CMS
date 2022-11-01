@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Charan Surya <charandarling44@gmail.com>",
+  "author": "Charan surya <charandarling44@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",

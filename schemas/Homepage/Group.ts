@@ -50,9 +50,12 @@ export default{
            name:"titleAlignment",
            title:"Title Alignment",
            type:"string",
-          
-        //   initialvalue:"Regular",
            options:{
+            // styles:[
+            //     {
+            //         title:"regular",value:"regular"
+            //     }
+            //    ],
             list:[
                
                 {
@@ -63,9 +66,7 @@ export default{
                 },
             
             ],
-            initialvalue:{
-                titleAlignment:true
-            }
+          
            }
         },
         {

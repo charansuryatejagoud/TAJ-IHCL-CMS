@@ -1,7 +1,7 @@
 
 export default{ 
-    title: 'Tabs',
-    name: 'tabs',
+    title: 'Tab',
+    name: 'tab',
     type: 'object',
     fields: [
         {

@@ -33,9 +33,9 @@ export default {
        
         },
         {
-            name:"text",
-            title:"Text",
-            type:"block"
+            name:"description",
+            title:"Description",
+            type:"blockContent"
         },
         {
             title: 'Action',

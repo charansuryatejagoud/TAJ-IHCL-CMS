@@ -18,7 +18,7 @@ export default {
             name: 'largeImage',
             type: 'image',
         },
-        {
+        { 
             title: 'Sub Title',
             name: 'subTitle',
             type: 'string',

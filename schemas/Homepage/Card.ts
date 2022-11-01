@@ -33,6 +33,11 @@ export default {
        
         },
         {
+            name:"text",
+            title:"Text",
+            type:"block"
+        },
+        {
             title: 'Action',
             name: 'action',
             type: 'array',

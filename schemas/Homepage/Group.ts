@@ -3,11 +3,11 @@ export default{
     title: 'Group',
     name: 'group',
     type: 'object',
-    initialValue: {hasAllLink: false },
+
     icon: Icon,
     groups: [
         { name: 'main', title: 'Main', icon: IoApps },
-        { name: 'configuration', title: 'Configuration', icon: IoSettings },
+        
     ],
     fields: [
         {
@@ -45,6 +45,28 @@ export default{
             name: 'text',
             type: 'text',
             group: 'main'
+        },
+        {
+           name:"titleAlignment",
+           title:"Title Alignment",
+           type:"string",
+          
+        //   initialvalue:"Regular",
+           options:{
+            list:[
+               
+                {
+                    title:"Center",value:"center"
+                },
+                {
+                    title:"Regular",value:"regular"
+                },
+            
+            ],
+            initialvalue:{
+                titleAlignment:true
+            }
+           }
         },
         {
             title: 'Padding',

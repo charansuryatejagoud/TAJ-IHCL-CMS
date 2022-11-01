@@ -1,9 +1,7 @@
-import {IoApps, IoCard as Icon, IoSettings} from "react-icons/io5";
 export default { 
-    title: 'Card',
-    name: 'card',
+    title: 'Carousel1',
+    name: 'carousel1',
     type: 'object',
-    icon: Icon,
     fields: [
         {
             title: 'Variant',
@@ -20,7 +18,7 @@ export default {
             name: 'largeImage',
             type: 'image',
         },
-        {
+        { 
             title: 'Sub Title',
             name: 'subTitle',
             type: 'string',
@@ -33,21 +31,10 @@ export default {
        
         },
         {
-            name:"text",
-            title:"Text",
-            type:"block"
-        },
-        {
             title: 'Action',
             name: 'action',
             type: 'array',
             of: [{ type: 'action'}]
         },
-        {
-            title: 'Primary Action',
-            name: 'primaryAction',
-            type: 'array',
-            of: [{ type: 'primary' }, {type: 'instagramButton' }, {type: 'videoButton' }]
-        }
     ]
 }

@@ -1,53 +1,65 @@
 import { BsArrowReturnRight } from "react-icons/bs";
 export default{
-    name:"tabs",
-    title:"Tabs",
+    name:"dialogue",
+    title:"Dialogue",
     type:"document",
     icon:BsArrowReturnRight,
-    fields:[
-        {
-            name:"title",
-            title:"Title",
-            type:"string"
-        },
-        {
-            name:"path",
-            title:"Path",
-            type:"url"
-        },
-        {
-            title:"Header",
-            name:"header",
-            type:"array",
-            of:[{
-                type:"header"
-            }]
-        },
-        {
-            title:"Items",
-            name:"items",
-            type:"array",
-            of:[
+    fields:[{
+             name:'tabs',
+             title:'Tabs',
+             type:'array',
+             of:[
                 {
-                    type:"tab"
-                },
-                {
-                    type:'group'
-                },
-                {
-                    type:'card'
+                    type:'tab'
                 }
-            ]
-        },
-        {
-            name:"footer",
-            title:"Footer",
-            type:"array",
-            of:[
-                {
-                    type:"footer"
-                }
-            ]
-        }
+             ]
+            }
+
+
+
+        // {
+        //     name:"title",
+        //     title:"Title",
+        //     type:"string"
+        // },
+        // {
+        //     name:"path",
+        //     title:"Path",
+        //     type:"string"
+        // },
+        // {
+        //     title:"Header",
+        //     name:"header",
+        //     type:"array",
+        //     of:[{
+        //         type:"header"
+        //     }]
+        // },
+        // {
+        //     title:"Items",
+        //     name:"items",
+        //     type:"array",
+        //     of:[
+        //         {
+        //             type:"tab"
+        //         },
+        //         {
+        //             type:'group'
+        //         },
+        //         {
+        //             type:'card'
+        //         }
+        //     ]
+        // },
+        // {
+        //     name:"footer",
+        //     title:"Footer",
+        //     type:"array",
+        //     of:[
+        //         {
+        //             type:"footer"
+        //         }
+        //     ]
+        // }
     ]
 }

@@ -11,11 +11,10 @@ export default{
             type: 'string',
            
         },
-        {
-            title: 'Group',
-            name: 'group',
-            type: 'array',
-            of: [{ type: 'group' }]
-        }
+       {
+        name:'path',
+        title:'Path',
+        type:'string'
+       }
     ]
 }

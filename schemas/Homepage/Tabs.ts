@@ -11,9 +11,9 @@ export default{
             type:"string"
         },
         {
-            name:"path",
-            title:"Path",
-            type:"url"
+            name:'path',
+            title:'Path',
+            type:'string',
         },
         {
             title:"Header",

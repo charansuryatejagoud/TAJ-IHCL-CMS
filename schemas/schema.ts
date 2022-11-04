@@ -2,7 +2,7 @@ import createSchema from "part:@sanity/base/schema-creator";
 
 import schemaTypes from "all:part:@sanity/base/schema-type";
 // import hotel from "./hotel";
-import Header from "./Homepage/Header";
+import Header from "./Header/Header";
 import Card from "./Homepage/Card";
 import Chatbot from "./Homepage/Chatbot";
 import Search from "./Homepage/Search";
@@ -10,7 +10,7 @@ import Icons from "./Homepage/Icons";
 import Navigation from "./Homepage/Navigation";
 import Button1 from "./Homepage/Button1";
 import Button2 from "./Homepage/Button2";
-import Footer from "./Homepage/Footer";
+import Footer from "./Footer/Footer";
 import ctalabel from "./Homepage/ctalabel";
 import Items from "./Homepage/Items";
 import Quicklinks from "./Homepage/Quicklinks";
@@ -22,7 +22,7 @@ import Instagrambutton from "./Homepage/InstagramButton";
 import Downloadbuttons from "./Homepage/Downloadbuttons";
 import Group from "./Homepage/Group";
 import Bottom from "./Homepage/Bottom";
-import header1 from "./Homepage/header1";
+import header1 from "./Header/header1";
 import Herobanner from "./Homepage/Banner";
 
 import Carousel from "./Detailspage2/Carousel";
@@ -40,9 +40,11 @@ import details from "./Detailspage2/details";
 
 
 
+
 export default createSchema({
   name: "default",
   types: schemaTypes.concat([Header,Card,Chatbot,Icons,Navigation,Button1,Button2,
     Footer,ctalabel,Items,Quicklinks,Support,Pages,Brands,Fields,Search,Bottom,
-    Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousel,Videobutton,BlockContent,Tabs,details]),});
+    Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousel,Videobutton,
+    BlockContent,Tabs,details,]),});
  

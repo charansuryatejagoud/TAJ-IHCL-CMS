@@ -3,6 +3,7 @@ export default {
     name: 'footer',
     type: 'object',
     fields: [
+       
         {
             title: 'Logo',
             name: 'logo',

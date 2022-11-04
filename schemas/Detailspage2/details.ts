@@ -1,10 +1,12 @@
-import { BsArrowBarRight } from "react-icons/bs";
+import { ImTab } from "react-icons/im";
 export default{ 
     title: 'Tab',
     name: 'tab',
     type: 'object',
-    icon: BsArrowBarRight,
+    icon: ImTab,
+   
     fields: [
+      
         {
             title: 'Title',
             name: 'title',

@@ -2,6 +2,7 @@ export default {
     title: 'Header',
     name: 'header',
     type: 'object',
+
     fields: [
         {
             title: 'Detail List',

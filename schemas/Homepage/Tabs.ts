@@ -1,10 +1,30 @@
 import { BsArrowReturnRight } from "react-icons/bs";
 export default{
-    name:"dialogue",
-    title:"Dialogue",
-    type:"document",
+    name:"tabs",
+    title:"Tabs",
+    type:"object",
     icon:BsArrowReturnRight,
-    fields:[{
+    initialValue:{
+        variant:"defaultTab"
+          },
+    fields:[
+        {
+            name:'variant',
+            title:'Variant',
+            type:'string',
+            options:{
+                list:[
+                    {
+                        title:'Default Tab',value:'defaultTab'
+                    },
+                    {
+                        title:'New Tab',value:'newTab'
+                    }
+                ]
+            }
+        },
+        
+        {
              name:'tabs',
              title:'Tabs',
              type:'array',
@@ -17,49 +37,6 @@ export default{
 
 
 
-        // {
-        //     name:"title",
-        //     title:"Title",
-        //     type:"string"
-        // },
-        // {
-        //     name:"path",
-        //     title:"Path",
-        //     type:"string"
-        // },
-        // {
-        //     title:"Header",
-        //     name:"header",
-        //     type:"array",
-        //     of:[{
-        //         type:"header"
-        //     }]
-        // },
-        // {
-        //     title:"Items",
-        //     name:"items",
-        //     type:"array",
-        //     of:[
-        //         {
-        //             type:"tab"
-        //         },
-        //         {
-        //             type:'group'
-        //         },
-        //         {
-        //             type:'card'
-        //         }
-        //     ]
-        // },
-        // {
-        //     name:"footer",
-        //     title:"Footer",
-        //     type:"array",
-        //     of:[
-        //         {
-        //             type:"footer"
-        //         }
-        //     ]
-        // }
+       
     ]
 }

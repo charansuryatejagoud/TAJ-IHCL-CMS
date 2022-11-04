@@ -11,16 +11,7 @@ export default{
         {
             title: 'Url',
             name: 'url',
-            type: 'url'
+            type: 'string'
         },
-        // {
-        //     name:'action',
-        //     type:'array',
-        //     of:[
-        //         {
-        //            type:'action'
-        //         }
-        //     ]
-        // }
     ]
 }

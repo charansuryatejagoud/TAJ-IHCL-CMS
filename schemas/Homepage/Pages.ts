@@ -34,8 +34,8 @@ import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default {
         {
             title: 'Footer',
             name: 'footer',
-            type: 'array',
-            of: [{ type: 'footer' }] 
+            type: 'defaultFooter',
+           
         }
     ]
 }

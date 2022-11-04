@@ -4,6 +4,9 @@ export default {
     name: 'footer',
     type: 'document',
     icon: BiDockBottom,
+    initialValue:{
+        variant:'default'
+    },
     fields: [
         {
             title: 'Title',
@@ -13,7 +16,21 @@ export default {
         {
             title: 'Variant',
             name: 'variant',
-            type: 'string'
+            type: 'string',
+            options:{
+                list:[
+                    {
+                          title:'default',value:'default'
+                    },
+                    {
+                        title:'variant-1',value:'variant-1'
+                    },
+                    {
+                        title:'variant-2',value:'variant-2'
+                    },
+                    
+                ]
+            }
         },
         {
             title: 'Path',

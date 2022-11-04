@@ -4,6 +4,7 @@ export default {
     name: 'header',
     type: 'document',
     icon:MdViewHeadline,
+    
     fields: [
         {
             title: 'Title',

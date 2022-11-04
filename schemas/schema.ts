@@ -31,6 +31,7 @@ import BlockContent from "./Homepage/BlockContent";
 import Tabs from "./Homepage/Tabs";
 
 import details from "./Detailspage2/details";
+import variant from "./Homepage/variant";
 
 
 
@@ -46,5 +47,5 @@ export default createSchema({
   types: schemaTypes.concat([Header,Card,Chatbot,Icons,Navigation,Button1,Button2,
     Footer,ctalabel,Items,Quicklinks,Support,Pages,Brands,Fields,Search,Bottom,
     Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousel,Videobutton,
-    BlockContent,Tabs,details,]),});
+    BlockContent,Tabs,details,variant]),});
  

@@ -24,13 +24,15 @@ import Bottom from "./Homepage/Bottom";
 import header1 from "./Header/header1";
 import Herobanner from "./Homepage/Banner";
 
-import Carousel from "./Detailspage2/Carousel";
+import Carousal from "./Detailspage2/Carousal";
 import Videobutton from "./Homepage/Videobutton";
 import BlockContent from "./Homepage/BlockContent";
 import Tabs from "./Homepage/Tabs";
 
 import details from "./Detailspage2/details";
 import variant from "./Homepage/variant";
+import carousalItems from "./Detailspage2/carousalItems";
+
 
 
 
@@ -45,6 +47,6 @@ export default createSchema({
   name: "default",
   types: schemaTypes.concat([Header,Card,Chatbot,Icons,Navigation,Button1,Button2,
     Footer,ctalabel,Items,Quicklinks,Support,Pages,Brands,Fields,Search,Bottom,
-    Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousel,Videobutton,
-    BlockContent,Tabs,details,variant]),});
+    Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousal,Videobutton,
+    BlockContent,Tabs,details,variant,carousalItems]),});
  

@@ -1,6 +1,6 @@
 export default { 
-    title: 'Carousel1',
-    name: 'carousel1',
+    title: 'Carousal Items ',
+    name: 'carousalItems',
     type: 'object',
     fields: [
         {
@@ -18,15 +18,25 @@ export default {
             name: 'largeImage',
             type: 'image',
         },
+        {
+            title: 'Bg Image',
+            name: 'bgImage',
+            type: 'image',
+        },
+        {
+            title: 'Large Bg Image',
+            name: 'largeBgImage',
+            type: 'image',
+        },
         { 
-            title: 'Sub Title',
-            name: 'subTitle',
+            title: 'Title',
+            name: 'title',
             type: 'string',
              
         },
         {
-            title: 'Sub Content',
-            name : 'subContent',
+            title: 'Sub Title',
+            name : 'subTitle',
             type: 'string',
        
         },

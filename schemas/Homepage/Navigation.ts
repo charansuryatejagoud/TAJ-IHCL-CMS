@@ -3,36 +3,23 @@ export default {
     name: 'action',
     type: 'object',
     fields: [
+       
         {
-            title: 'Title',
-            name: 'title',
-            type: 'string'
-        },
-        {
-            title: 'Check Box',
-            name: 'checkBox',
-            type: 'string',
-            options: {
-                list: [
-                    { title: 'Internal',value: 'internal' },
-                    { title: 'External',value: 'external' }
-                ],
-                layout:'radio',
-                isHighlighted:true
-            }
-        },
-        {
-            title: 'Url',
-            name: 'url',
-            type: 'url'
+            name:'primaryAction',
+            title:'Primary Action',
+            type:'array',
+            of:[
+                {
+                    type:'primary'
+                }
+            ]
         },
         {
             title: 'Secondary Action',
             name: 'secondaryAction',
             type: 'array',
             of: [{ type: 'primary' },
-                 { type: 'instagramButton' },
-                 { type: 'videoButton' }
+                
             ]
         }
     ]

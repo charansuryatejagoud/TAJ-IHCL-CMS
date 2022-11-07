@@ -33,6 +33,14 @@ export default {
        
         },
         {
+            title: 'Title',
+            name : 'title',
+            type: 'string',
+       
+        },
+        
+        
+        {
             name:"description",
             title:"Description",
             type:"blockContent"

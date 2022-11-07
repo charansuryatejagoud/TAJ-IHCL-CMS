@@ -92,5 +92,10 @@ export default{
                ],
                group: 'main'
         },
+        {
+            name:'dropDownButton',
+            title:'Drop Down Button',
+            type:'primary'
+        }
     ]
 }

@@ -4,24 +4,16 @@ export default{
     name: 'tab',
     type: 'object',
     icon: ImTab,
-   
     fields: [
-      
         {
             title: 'Title',
             name: 'title',
             type: 'string',
-           
         },
        {
         name:'path',
         title:'Path',
         type:'string'
-       },
-       {
-        name:'image',
-        title:'Image',
-        type:'image'
        }
     ]
 }

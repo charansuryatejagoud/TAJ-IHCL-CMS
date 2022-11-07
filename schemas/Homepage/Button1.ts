@@ -24,7 +24,7 @@ export default {
         {
             title: 'Url',
             name: 'url',
-            type: 'url'
+            type: 'string'
         },
         // {
         //     title: 'Secondary Action',

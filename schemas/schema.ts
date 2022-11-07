@@ -1,7 +1,6 @@
 import createSchema from "part:@sanity/base/schema-creator";
 
 import schemaTypes from "all:part:@sanity/base/schema-type";
-// import hotel from "./hotel";
 import Header from "./Header/Header";
 import Card from "./Homepage/Card";
 import Chatbot from "./Homepage/Chatbot";

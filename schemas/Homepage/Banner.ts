@@ -11,12 +11,22 @@ export default{
         {
             title: 'Image',
             name: 'image',
-            type: 'image'
+            type: 'array',
+            of:[
+                {
+                    type:'image'
+                }
+            ]
         },
         {
             title: 'Large Image',
             name: 'largeImage',
-            type: 'image'
+            type: 'array',
+            of:[
+                {
+                    type:'image'
+                }
+            ]
         },
         {
             title: 'Variant',

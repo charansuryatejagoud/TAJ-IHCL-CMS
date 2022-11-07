@@ -10,15 +10,15 @@ export default{
             name: 'title',
             type: 'string',
         },
-       {
-        name:'path',
-        title:'Path',
-        type:'string'
+        {
+            name:'path',
+            title:'Path',
+            type:'string'
        },
        {
-        name:'image',
-        title:'Image',
-        type:'image'
+            name:'image',
+            title:'Image',
+            type:'image'
        }
     ]
 }

@@ -4,7 +4,9 @@ export default {
     name: 'header',
     type: 'document',
     icon:MdViewHeadline,
-    
+    initialValue: {
+        variant: "default",
+      },
     fields: [
         {
             title: 'Title',
@@ -12,10 +14,17 @@ export default {
             type: 'string'
         },
         {
-            title: 'Variant',
-            name: 'variant',
-            type: 'string'
-        },
+            title: "Variant",
+            name: "variant",
+            type: "string",
+            options: {
+              list: [
+                {
+                  title: "default", value: "default",
+                },
+              ],
+            },
+          },
         {
             title: 'Path',
             name: 'path',

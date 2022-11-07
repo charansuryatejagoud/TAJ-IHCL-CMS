@@ -9,15 +9,28 @@ export default {
             type: 'string'
         },
         {
+            title: 'Check Box',
+            name: 'checkBox',
+            type: 'string',
+            options: {
+                list: [
+                    { title: 'Internal',value: 'internal' },
+                    { title: 'External',value: 'external' }
+                ],
+                layout:'radio',
+                isHighlighted:true
+            }
+        },
+        {
             title: 'Url',
             name: 'url',
             type: 'url'
         },
-        {
-            title: 'Secondary Action',
-            name: 'secondaryAction',
-            type: 'array',
-            of: [{ type: 'secondary' }]
-        }
+        // {
+        //     title: 'Secondary Action',
+        //     name: 'secondaryAction',
+        //     type: 'array',
+        //     of: [{ type: 'secondary' }]
+        // }
     ]
 }

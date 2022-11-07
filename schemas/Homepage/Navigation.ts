@@ -27,8 +27,8 @@ export default {
             type: 'url'
         },
         {
-            title: 'Primary Action',
-            name: 'primaryAction',
+            title: 'Secondary Action',
+            name: 'secondaryAction',
             type: 'array',
             of: [{ type: 'primary' },
                  { type: 'instagramButton' },

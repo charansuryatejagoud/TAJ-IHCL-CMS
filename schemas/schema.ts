@@ -30,23 +30,15 @@ import BlockContent from "./Homepage/BlockContent";
 import Tabs from "./Homepage/Tabs";
 
 import details from "./Detailspage2/details";
-import variant from "./Homepage/variant";
+
 import carousalItems from "./Detailspage2/carousalItems";
-
-
-
-
-
-
-
-
-
-
+import variantHeader from "./Homepage/variantHeader";
+import variantFooter from "./Homepage/variantFooter";
 
 export default createSchema({
   name: "default",
   types: schemaTypes.concat([Header,Card,Chatbot,Icons,Navigation,Button1,Button2,
     Footer,ctalabel,Items,Quicklinks,Support,Pages,Brands,Fields,Search,Bottom,
     Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousal,Videobutton,
-    BlockContent,Tabs,details,variant,carousalItems]),});
+    BlockContent,Tabs,details,variantFooter,carousalItems,variantHeader]),});
  

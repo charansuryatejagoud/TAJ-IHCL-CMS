@@ -53,8 +53,8 @@ export default {
         ]
         },
         {
-            title: 'Primary Action',
-            name: 'primaryAction',
+            title: ' Action',
+            name: 'action',
             type: 'array',
             of: [{ type: 'action' }]
         },

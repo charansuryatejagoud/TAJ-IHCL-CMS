@@ -14,6 +14,11 @@ export default{
         name:'path',
         title:'Path',
         type:'string'
+       },
+       {
+        name:'image',
+        title:'Image',
+        type:'image'
        }
     ]
 }

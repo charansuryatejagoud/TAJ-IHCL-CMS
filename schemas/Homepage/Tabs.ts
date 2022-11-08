@@ -5,7 +5,7 @@ export default{
     type:"object",
     icon:BsArrowReturnRight,
     initialValue:{
-        variant:"defaultTab"
+        variant:"default"
           },
     fields:[
         {
@@ -15,10 +15,10 @@ export default{
             options:{
                 list:[
                     {
-                        title:'Default Tab',value:'defaultTab'
+                        title:'default ',value:'default'
                     },
                     {
-                        title:'New Tab',value:'newTab'
+                        title:'title-with-image',value:'titleWithImage'
                     }
                 ]
             }

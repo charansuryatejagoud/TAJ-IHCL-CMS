@@ -88,7 +88,11 @@ export default{
             title: 'Items',
             name: 'items',
             type: 'array',
-            of: [{ type: 'card' }
+            of: [{ type: 'card' },
+            {type:'tab'},
+            
+            {type:'tabs'},
+
                ],
                group: 'main'
         },

@@ -17,8 +17,8 @@ import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default {
         {
             title: 'Header',
             name: 'header',
-            type: 'array',
-            of: [{ type: 'header' }]
+            type: 'defaultHeader',
+            
         },
         {
             title: 'Items',

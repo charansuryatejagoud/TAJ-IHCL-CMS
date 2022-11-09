@@ -4,7 +4,17 @@ export default {
     name: 'card',
     type: 'object',
     icon: Icon,
+    initialValue:{
+        showDividerForTitle:'false'
+    },
     fields: [
+        {
+            title: 'Show Divider For Title ',
+            name: 'showDividerForTitle',
+            type: 'boolean',
+            
+        },
+
         {
             title: 'Variant',
             name: 'variant',
@@ -51,11 +61,6 @@ export default {
             type: 'array',
             of: [{ type: 'action'}]
         },
-        // {
-        //     title: 'Primary Action',
-        //     name: 'primaryAction',
-        //     type: 'array',
-        //     of: [{ type: 'primary' }, {type: 'instagramButton' }, {type: 'videoButton' }]
-        // }
+       
     ]
 }

@@ -1,7 +1,7 @@
 import { MdOutlineViewCarousel } from "react-icons/md";
 export default{ 
-    title: 'Carousal',
-    name: 'carousal',
+    title: 'Carousel',
+    name: 'carousel',
     type: 'object',
     icon: MdOutlineViewCarousel,
     fields: [
@@ -14,7 +14,7 @@ export default{
             title: 'Items',
             name: 'items',
             type: 'array',
-            of: [{ type: 'carousalItems' }]
+            of: [{ type: 'carouselItems' }]
         }
     ]
 }

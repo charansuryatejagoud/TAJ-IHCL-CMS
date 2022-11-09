@@ -1,6 +1,6 @@
 export default { 
-    title: 'Carousal Items ',
-    name: 'carousalItems',
+    title: 'Carousel Items ',
+    name: 'carouselItems',
     type: 'object',
     fields: [
         {

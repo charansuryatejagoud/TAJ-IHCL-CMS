@@ -24,14 +24,11 @@ import Bottom from "./Homepage/Bottom";
 import header1 from "./Header/header1";
 import Herobanner from "./Homepage/Banner";
 
-
 import Videobutton from "./Homepage/Videobutton";
 import BlockContent from "./Homepage/BlockContent";
 import Tabs from "./Homepage/Tabs";
 
 import details from "./Detailspage2/details";
-
-
 import variantHeader from "./Homepage/variantHeader";
 import variantFooter from "./Homepage/variantFooter";
 import carouselItems from "./Detailspage2/carouselItems";
@@ -39,8 +36,36 @@ import Carousel from "./Detailspage2/Carousel";
 
 export default createSchema({
   name: "default",
-  types: schemaTypes.concat([Header,Card,Chatbot,Icons,Navigation,Button1,Button2,
-    Footer,ctalabel,Items,Quicklinks,Support,Pages,Brands,Fields,Search,Bottom,
-    Instagrambutton,Downloadbuttons,Group,header1,Herobanner,Carousel,Videobutton,
-    BlockContent,Tabs,details,variantFooter,carouselItems,variantHeader]),});
- 
+  types: schemaTypes.concat([
+    Header,
+    Card,
+    Chatbot,
+    Icons,
+    Navigation,
+    Button1,
+    Button2,
+    Footer,
+    ctalabel,
+    Items,
+    Quicklinks,
+    Support,
+    Pages,
+    Brands,
+    Fields,
+    Search,
+    Bottom,
+    Instagrambutton,
+    Downloadbuttons,
+    Group,
+    header1,
+    Herobanner,
+    Carousel,
+    Videobutton,
+    BlockContent,
+    Tabs,
+    details,
+    variantFooter,
+    carouselItems,
+    variantHeader,
+  ]),
+});

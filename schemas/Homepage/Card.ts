@@ -33,7 +33,6 @@ export default {
               { title: '2-card-carousel', value: '2-card-carousel' },
               { title: 'card-with-tabs', value: 'card-with-tabs' },
               { title: 'single-item', value: 'single-item' },
-              { title: 'card-with-focused-title', value: 'card-with-focused-title' },
               { title: 'card-with-information', value: 'card-with-information' },
               { title: 'card-with-links', value: 'card-with-links' },
               { title: 'card-with-location', value: 'card-with-location' }

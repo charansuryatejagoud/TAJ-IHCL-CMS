@@ -38,18 +38,6 @@ export default{
             group: 'main',
             options:{
                 list:[
-                    { title: 'simple-media', value: 'simple-media' },
-                    { title: 'card-with-carousel', value: 'card-with-carousel' },
-                    { title: 'award-card', value: 'award-card' },
-                    { title: 'carousel-with-bg-image', value: 'carousel-with-bg-image' },
-                    { title: 'card-with-focused-title', value: 'card-with-focused-title' },
-                    { title: '2-card-carousel', value: '2-card-carousel' },
-                    { title: 'card-with-tabs', value: 'card-with-tabs' },
-                    { title: 'single-item', value: 'single-item' },
-                    { title: 'card-with-focused-title', value: 'card-with-focused-title' },
-                    { title: 'card-with-information', value: 'card-with-information' },
-                    { title: 'card-with-links', value: 'card-with-links' },
-                    { title: 'card-with-location', value: 'card-with-location' }
                 ]
         }
     },
@@ -77,7 +65,9 @@ export default{
                     { title: 'group-with-links', value: 'group-with-links' },
                     { title: 'group-with-maps', value: 'group-with-maps' },
                     { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
-                    { title: 'card-with-focused-title', value: 'card-with-focused-title' },   
+                    { title: 'card-with-focused-title', value: 'card-with-focused-title' },
+                    { title: '2-column-casousel-with-button-and-link', value: '2-column-casousel-with-button-and-link' },
+                    { title: 'carousel-with-tabs', value: 'carousel-with-tabs' }
                 ]
         },
     },

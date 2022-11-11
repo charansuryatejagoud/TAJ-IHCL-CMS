@@ -67,7 +67,8 @@ export default{
                     { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
                     { title: 'card-with-focused-title', value: 'card-with-focused-title' },
                     { title: '2-column-casousel-with-button-and-link', value: '2-column-casousel-with-button-and-link' },
-                    { title: 'carousel-with-tabs', value: 'carousel-with-tabs' }
+                    { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
+                    {title:'carousel-with-3-column-grid',value:'carousel-with-3-column-grid'}
                 ]
         },
     },

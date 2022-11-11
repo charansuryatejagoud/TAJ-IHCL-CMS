@@ -29,6 +29,11 @@ export default {
       type: "image",
     },
     {
+      title: "Focus Title",
+      name: "focusTitle",
+      type: "string",
+    },
+    {
       title: "Sub Title",
       name: "subTitle",
       type: "string",

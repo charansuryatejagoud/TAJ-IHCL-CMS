@@ -9,7 +9,7 @@ export default {
   },
   fields: [
     {
-      title: "Show Divider For Title ",
+      title: "Show Divider For Title",
       name: "showDividerForTitle",
       type: "boolean",
     },

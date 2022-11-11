@@ -21,6 +21,7 @@ export default {
       type: "string",
       group: "main",
     },
+
     {
       title: "Title",
       name: "title",
@@ -30,12 +31,6 @@ export default {
     {
       title: "Variant",
       name: "variant",
-      type: "string",
-      group: "main",
-    },
-    {
-      title: "Demo Variant",
-      name: "demoVariant",
       type: "string",
       group: "main",
     },
@@ -63,11 +58,6 @@ export default {
       type: "string",
 
       options: {
-        // styles:[
-        //     {
-        //         title:"regular",value:"regular"
-        //     }
-        //    ],
         list: [
           {
             title: "Center",

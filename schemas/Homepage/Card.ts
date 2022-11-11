@@ -19,6 +19,28 @@ export default {
       type: "string",
     },
     {
+      title: 'Demo Variant',
+      name: 'demoVariant',
+      type: 'string',
+      group: 'main',
+      options:{
+          list:[
+              { title: 'simple-media', value: 'simple-media' },
+              { title: 'card-with-carousel', value: 'card-with-carousel' },
+              { title: 'award-card', value: 'award-card' },
+              { title: 'carousel-with-bg-image', value: 'carousel-with-bg-image' },
+              { title: 'card-with-focused-title', value: 'card-with-focused-title' },
+              { title: '2-card-carousel', value: '2-card-carousel' },
+              { title: 'card-with-tabs', value: 'card-with-tabs' },
+              { title: 'single-item', value: 'single-item' },
+              { title: 'card-with-focused-title', value: 'card-with-focused-title' },
+              { title: 'card-with-information', value: 'card-with-information' },
+              { title: 'card-with-links', value: 'card-with-links' },
+              { title: 'card-with-location', value: 'card-with-location' }
+          ]
+  }
+},
+    {
       title: "Image",
       name: "image",
       type: "image",

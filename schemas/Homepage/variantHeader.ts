@@ -1,22 +1,17 @@
 export default{
-    name:'defaultHeader',
-    title:'Default Header',
-    type:'object',
+    title: 'Default Header',
+    name: 'defaultHeader',
+    type: 'object',
     initialValue:{
         variant:'default'
     },
     fields:[
         {
-            name:'variant',
-            title:'Variant',
-            type:'string',
+            title: 'Variant',
+            name: 'variant',
+            type: 'string',
             options:{
-                list:[
-                   
-                    {
-                        title:'default',value:'default'
-                    }
-                ]
+                list:[{ title: 'default', value: 'default' }]
             }
         }
     ]

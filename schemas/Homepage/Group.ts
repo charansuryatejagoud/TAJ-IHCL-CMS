@@ -3,14 +3,12 @@ export default{
     title: 'Group',
     name: 'group',
     type: 'object',
-
     icon: Icon,
     initialValue:{
         titleAlignment:'regular'
     },
     groups: [
-        { name: 'main', title: 'Main', icon: IoApps },
-        
+        { name: 'main', title: 'Main', icon: IoApps },    
     ],
     fields: [
         {
@@ -25,31 +23,21 @@ export default{
             type: 'string',
             group: 'main'
         },
-        {
-            title: 'Variant',
-            name: 'variant',
-            type: 'string',
-            group: 'main'
-        },
-        {
-            title: 'Demo Variant',
-            name: 'demoVariant',
-            type: 'string',
-            group: 'main',
-            options:{
-                list:[
-                ]
-        }
-    },
+        // {
+        //     title: 'Variant',
+        //     name: 'variant',
+        //     type: 'string',
+        //     group: 'main'
+        // },
+        // {
+        //     title: 'Large Variant',
+        //     name: 'largeVariant',
+        //     type: 'string',
+        //     group: 'main'
+        // },
         {
             title: 'Large Variant',
             name: 'largeVariant',
-            type: 'string',
-            group: 'main'
-        },
-        {
-            title: 'Demo Large Variant',
-            name: 'demoLargeVariant',
             type: 'string',
             group: 'main',
             options:{
@@ -66,9 +54,14 @@ export default{
                     { title: 'group-with-maps', value: 'group-with-maps' },
                     { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
                     { title: 'card-with-focused-title', value: 'card-with-focused-title' },
-                    { title: '2-column-casousel-with-button-and-link', value: '2-column-casousel-with-button-and-link' },
+                    { title: '2-column-carousel-with-button-and-link', value: '2-column-carousel-with-button-and-link' },
                     { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
-                    {title:'carousel-with-3-column-grid',value:'carousel-with-3-column-grid'}
+                    { title: 'carousel-with-3-column-grid', value: 'carousel-with-3-column-grid' },
+                    { title: 'transparent-4-cards', value: 'transparent-4-cards' },
+                    { title: 'group-with-large-image', value: 'group-with-large-image' },
+                    { title: '4-column-rectangle-grid', value: '4-column-rectangle-grid' },
+                    { title: '2-row-grid', value: '2-row-grid' }
+                
                 ]
         },
     },
@@ -85,27 +78,14 @@ export default{
             group: 'main'
         },
         {
-           name: 'titleAlignment',
            title: 'Title Alignment',
-           type:"string",
-          
+           name: 'titleAlignment',
+           type: 'string',
            options:{
-            // styles:[
-            //     {
-            //         title:"regular",value:"regular"
-            //     }
-            //    ],
             list:[
-               
-                {
-                    title:"Center",value:"center"
-                },
-                {
-                    title:"Regular",value:"regular"
-                },
-            
+                { title: 'Center', value: 'center' },
+                { title: 'Regular', value: 'regular' },
             ],
-          
            }
         },
         {
@@ -124,17 +104,15 @@ export default{
             name: 'items',
             type: 'array',
             of: [{ type: 'card' },
-            {type:'tab'},
-            
-            {type:'tabs'},
-
+                 {type: 'tab' }, 
+                 {type: 'tabs' },
                ],
                group: 'main'
         },
         {
-            name:'dropDownButton',
-            title:'Drop Down Button',
-            type:'primary'
+            title: 'Drop Down Button',
+            name: 'dropDownButton',
+            type: 'primary'
         }
     ]
 }

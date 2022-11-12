@@ -1,42 +1,29 @@
 import { BsArrowReturnRight } from "react-icons/bs";
 export default{
-    name:"tabs",
-    title:"Tabs",
-    type:"object",
+    title: 'Tabs',
+    name: 'tabs',
+    type: 'object',
     icon:BsArrowReturnRight,
     initialValue:{
-        variant:"default"
+        variant: 'default'
           },
     fields:[
         {
-            name:'variant',
-            title:'Variant',
-            type:'string',
+            title: 'Variant',
+            name: 'variant',
+            type: 'string',
             options:{
                 list:[
-                    {
-                        title:'default ',value:'default'
-                    },
-                    {
-                        title:'title-with-image',value:'titleWithImage'
-                    }
+                    { title: 'default ', value: 'default' },
+                    { title: 'title-with-image', value: 'titleWithImage' }
                 ]
             }
         },
-        
         {
-             name:'tabs',
-             title:'Tabs',
-             type:'array',
-             of:[
-                {
-                    type:'tab'
-                }
-             ]
-            }
-
-
-
-       
+             title: 'Tabs',
+             name: 'tabs',
+             type: 'array',
+             of:[{ type: 'tab' }]
+        }
     ]
 }

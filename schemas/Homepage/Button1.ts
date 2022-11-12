@@ -26,11 +26,6 @@ export default {
             name: 'url',
             type: 'string'
         },
-        // {
-        //     title: 'Secondary Action',
-        //     name: 'secondaryAction',
-        //     type: 'array',
-        //     of: [{ type: 'secondary' }]
-        // }
+       
     ]
 }

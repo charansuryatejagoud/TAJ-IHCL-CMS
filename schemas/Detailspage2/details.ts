@@ -5,21 +5,17 @@ export default{
     type: 'object',
     icon: ImTab,
     initialValue:{
-        variant:"default"
+        variant:'default'
           },
     fields: [
         {
-            name:'variant',
             title:'Variant',
+            name:'variant',
             type:'string',
             options:{
                 list:[
-                    {
-                        title:'default ',value:'default'
-                    },
-                    {
-                        title:'title-with-image',value:'titleWithImage'
-                    }
+                    { title: 'default ', value: 'default' },
+                    { title: 'title-with-image', value: 'titleWithImage' }
                 ]
             }
         },
@@ -29,14 +25,14 @@ export default{
             type: 'string',
         },
         {
-            name:'path',
-            title:'Path',
-            type:'string'
+            title: 'Path',
+            name: 'path',
+            type: 'string'
        },
        {
-            name:'image',
-            title:'Image',
-            type:'image'
+            title: 'Image',
+            name: 'image',
+            type: 'image'
        }
     ]
 }

@@ -12,7 +12,7 @@ export default{
             title: 'Quick Links',
             name: 'quickLinks',
             type: 'array',
-            of: [{ type: 'quickLinks'}]
+            of: [{ type: 'quickLinks' }]
         }
     ]
 }

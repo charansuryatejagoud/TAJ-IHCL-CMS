@@ -12,21 +12,13 @@ export default{
             title: 'Image',
             name: 'image',
             type: 'array',
-            of:[
-                {
-                    type:'image'
-                }
-            ]
+            of:[{ type: 'image' }]
         },
         {
             title: 'Large Image',
             name: 'largeImage',
             type: 'array',
-            of:[
-                {
-                    type:'image'
-                }
-            ]
+            of:[{ type:'image' }]
         },
         {
             title: 'Variant',
@@ -42,7 +34,7 @@ export default{
             title: 'Chat Bot',
             name: 'chatBot',
             type: 'array',
-            of: [{ type: 'chatBot'}]
+            of: [{ type: 'chatBot' }]
         },
         {
             title: ' Action',

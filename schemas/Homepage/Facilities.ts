@@ -1,22 +1,18 @@
 export default{
-    name:"facilities",
-    title:"Facilities",
-    type:"object",
+    name: 'facilities',
+    title: 'Facilities',
+    type: 'object',
     fields:[
         {
-            name:"title",
-            title:"Title",
-            type:"string"
+            title: 'Title',
+            name: 'title',
+            type: 'string'
         },
         {
-            name:"subTitles",
-            title:"Sub Titles",
-            type:"array",
-            of:[
-                {
-                    type:"string"
-                }
-            ]
+            title: 'Sub Titles',
+            name: 'subTitles',
+            type: 'array',
+            of:[{ type: 'string' }]
         }
     ]
 }

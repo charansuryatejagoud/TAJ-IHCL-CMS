@@ -22,72 +22,11 @@ export default {
       type: "string",
       group: "main",
     },
-<<<<<<< HEAD
     {
       title: "Variant",
       name: "variant",
       type: "string",
       group: "main",
-=======
-        {
-            title: 'Large Variant',
-            name: 'largeVariant',
-            type: 'string',
-            group: 'main'
-        },
-        {
-            title: 'Demo Large Variant',
-            name: 'demoLargeVariant',
-            type: 'string',
-            group: 'main',
-            options:{
-                list:[
-                    { title: 'two-row-grid', value: 'two-row-grid' },
-                    { title: 'single-card-carousel-with-bg-image', value: 'single-card-carousel-with-bg-image'},
-                    { title: 'carousel-with-award-cards', value: 'carousel-with-award-cards'},
-                    { title: 'multi-cards-carousel-with-bg-image', value: 'multi-cards-carousel-with-bg-image' },
-                    { title: '3-column-grid-button-with-link', value: '3-column-grid-button-with-link' },
-                    { title: 'media-card', value: 'media-card' },
-                    { title: 'carousel-with-focused-title', value: 'carousel-with-focused-title' },
-                    { title: 'group-with-information', value: 'group-with-information' },
-                    { title: 'group-with-links', value: 'group-with-links' },
-                    { title: 'group-with-maps', value: 'group-with-maps' },
-                    { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
-                    { title: 'card-with-focused-title', value: 'card-with-focused-title' },
-                    { title: '2-column-casousel-with-button-and-link', value: '2-column-casousel-with-button-and-link' },
-                    { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
-                    {title:'carousel-with-3-column-grid',value:'carousel-with-3-column-grid'}
-                ]
-        },
->>>>>>> 8c447714867d11572fe5f4f9ce9ede0baeafdc84
-    },
-    {
-      title: "Demo Variant",
-      name: "demoVariant",
-      type: "string",
-      group: "main",
-      options: {
-        list: [
-          { title: "simple-media", value: "simple-media" },
-          { title: "card-with-carousel", value: "card-with-carousel" },
-          { title: "award-card", value: "award-card" },
-          { title: "carousel-with-bg-image", value: "carousel-with-bg-image" },
-          {
-            title: "card-with-focused-title",
-            value: "card-with-focused-title",
-          },
-          { title: "2-card-carousel", value: "2-card-carousel" },
-          { title: "card-with-tabs", value: "card-with-tabs" },
-          { title: "single-item", value: "single-item" },
-          {
-            title: "card-with-focused-title",
-            value: "card-with-focused-title",
-          },
-          { title: "card-with-information", value: "card-with-information" },
-          { title: "card-with-links", value: "card-with-links" },
-          { title: "card-with-location", value: "card-with-location" },
-        ],
-      },
     },
     {
       title: "Large Variant",
@@ -134,6 +73,15 @@ export default {
           {
             title: "card-with-focused-title",
             value: "card-with-focused-title",
+          },
+          {
+            title: "2-column-casousel-with-button-and-link",
+            value: "2-column-casousel-with-button-and-link",
+          },
+          { title: "carousel-with-tabs", value: "carousel-with-tabs" },
+          {
+            title: "carousel-with-3-column-grid",
+            value: "carousel-with-3-column-grid",
           },
         ],
       },

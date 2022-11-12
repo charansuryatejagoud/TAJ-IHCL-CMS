@@ -1,26 +1,26 @@
 import { IoApps, IoCard as Icon, IoSettings } from "react-icons/io5";
 export default {
-  title: "Card",
-  name: "card",
-  type: "object",
+  title: 'Card',
+  name: 'card',
+  type: 'object',
   icon: Icon,
   initialValue: {
-    isHighLighted: "false",
+    isHighLighted: 'false',
   },
   fields: [
     {
-      title: "Show Divider For Title ",
-      name: "showDividerForTitle",
-      type: "boolean",
+      title: 'Show Divider For Title',
+      name: 'showDividerForTitle',
+      type: 'boolean',
     },
+    // {
+    //   title: "Variant",
+    //   name: "variant",
+    //   type: "string",
+    // },
     {
-      title: "Variant",
-      name: "variant",
-      type: "string",
-    },
-    {
-      title: 'Demo Variant',
-      name: 'demoVariant',
+      title: 'Variant',
+      name: 'variant',
       type: 'string',
       group: 'main',
       options:{
@@ -35,50 +35,55 @@ export default {
               { title: 'single-item', value: 'single-item' },
               { title: 'card-with-information', value: 'card-with-information' },
               { title: 'card-with-links', value: 'card-with-links' },
-              { title: 'card-with-location', value: 'card-with-location' }
+              { title: 'card-with-location', value: 'card-with-location' },
+              { title: 'title-with-hoverable-card', value: 'title-with-hoverable-card' },
+              { title: 'card-with-large-image', value: 'card-with-large-image' },
+              { title: 'rectangle-card', value: 'rectangle-card' },
+              { title: 'card-with-right-aligned-title-link', value: 'card-with-right-aligned-title-link' },
+              { title: '3-column-grid', value: '3-column-grid' }
           ]
   }
 },
     {
-      title: "Image",
-      name: "image",
-      type: "image",
+      title: 'Image',
+      name: 'image',
+      type: 'image',
     },
     {
-      title: "Large Image",
-      name: "largeImage",
-      type: "image",
+      title: 'Large Image',
+      name: 'largeImage',
+      type: 'image',
     },
     {
-      title: "Focus Title",
-      name: "focusTitle",
-      type: "string",
+      title: 'Focus Title',
+      name: 'focusTitle',
+      type: 'string',
     },
     {
-      title: "Sub Title",
-      name: "subTitle",
-      type: "string",
+      title: 'Sub Title',
+      name: 'subTitle',
+      type: 'string',
     },
     {
-      title: "Sub Content",
-      name: "subContent",
-      type: "string",
+      title: 'Sub Content',
+      name: 'subContent',
+      type: 'string',
     },
     {
-      title: "Title",
-      name: "title",
-      type: "string",
+      title: 'Title',
+      name: 'title',
+      type: 'string',
     },
     {
-      name: "description",
-      title: "Description",
-      type: "blockContent",
+      title: 'Description',
+      name: 'description',
+      type: 'blockContent',
     },
     {
-      title: "Action",
-      name: "action",
-      type: "array",
-      of: [{ type: "action" }],
+      title: 'Action',
+      name: 'action',
+      type: 'array',
+      of: [{ type: 'action' }],
     },
   ],
 };

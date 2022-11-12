@@ -31,14 +31,12 @@ export default {
         { 
             title: 'Title',
             name: 'title',
-            type: 'string',
-             
+            type: 'string',     
         },
         {
             title: 'Sub Title',
             name : 'subTitle',
             type: 'string',
-       
         },
         {
             title: 'Action',

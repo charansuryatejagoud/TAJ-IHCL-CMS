@@ -18,7 +18,6 @@ import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default {
             title: 'Header',
             name: 'header',
             type: 'defaultHeader',
-            
         },
         {
             title: 'Items',
@@ -28,14 +27,13 @@ import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default {
                  { type: 'card' },
                  { type: 'banner' },
                  { type: 'tabs' },
-                 { type: 'carousel'}
+                 { type: 'carousel' }
            ]
         },
         {
             title: 'Footer',
             name: 'footer',
-            type: 'defaultFooter',
-           
+            type: 'defaultFooter',  
         }
     ]
 }

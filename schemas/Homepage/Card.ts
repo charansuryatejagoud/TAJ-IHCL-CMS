@@ -40,7 +40,9 @@ export default {
               { title: 'card-with-large-image', value: 'card-with-large-image' },
               { title: 'rectangle-card', value: 'rectangle-card' },
               { title: 'card-with-right-aligned-title-link', value: 'card-with-right-aligned-title-link' },
-              { title: '3-column-grid', value: '3-column-grid' }
+              { title: '3-column-grid', value: '3-column-grid' },
+              {title:'card-with-title-and-sub-titles',value:'card-with-title-and-sub-titles'},
+              {title:'card-with-2-buttons-and-link',value:'card-with-2-buttons-and-link'}
           ]
   }
 },

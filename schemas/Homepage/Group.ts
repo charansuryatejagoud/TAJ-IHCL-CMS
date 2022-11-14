@@ -42,7 +42,7 @@ export default{
             group: 'main',
             options:{
                 list:[
-                    { title: 'two-row-grid', value: 'two-row-grid' },
+                    { title: '4-row-grid', value: '4-row-grid' },
                     { title: 'single-card-carousel-with-bg-image', value: 'single-card-carousel-with-bg-image'},
                     { title: 'carousel-with-award-cards', value: 'carousel-with-award-cards'},
                     { title: 'multi-cards-carousel-with-bg-image', value: 'multi-cards-carousel-with-bg-image' },
@@ -60,8 +60,8 @@ export default{
                     { title: 'transparent-4-cards', value: 'transparent-4-cards' },
                     { title: 'group-with-large-image', value: 'group-with-large-image' },
                     { title: '4-column-rectangle-grid', value: '4-column-rectangle-grid' },
-                    { title: '2-row-grid', value: '2-row-grid' }
-                
+                    { title: '2-row-grid', value: '2-row-grid' },
+                    {title:'group-with-facilities',value:'group-with-facilities'}
                 ]
         },
     },
@@ -104,10 +104,9 @@ export default{
             name: 'items',
             type: 'array',
             of: [{ type: 'card' },
-                 {type: 'tab' }, 
-                 {type: 'tabs ' },
+                 { type: 'tab' }, 
+                 { type: 'tabs' },
                ],
-               group: 'main'
         },
         {
             title: 'Drop Down Button',

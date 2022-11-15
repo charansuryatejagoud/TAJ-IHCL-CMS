@@ -12,6 +12,11 @@ export default{
     ],
     fields: [
         {
+            title: 'Show Divider For Title',
+            name: 'showDividerForTitle',
+            type: 'boolean',
+        },
+        {
             title: 'Focus Title',
             name: 'focusTitle',
             type: 'string',

@@ -12,20 +12,20 @@ import Button2 from "./Homepage/Button2";
 import Footer from "./Footer/Footer";
 import ctalabel from "./Homepage/ctalabel";
 import Items from "./Homepage/Items";
-import Quicklinks from "./Homepage/Quicklinks";
+import Quicklinks from "./Homepage/quickLinks";
 import Support from "./Homepage/Support";
 import Pages from "./Homepage/Pages";
 import Brands from "./Homepage/Brands";
 import Fields from "./Homepage/Fields";
 import Instagrambutton from "./Homepage/InstagramButton";
-import Downloadbuttons from "./Homepage/Downloadbuttons";
+import Downloadbuttons from "./Homepage/downloadButtons";
 import Group from "./Homepage/Group";
 import Bottom from "./Homepage/Bottom";
 import header1 from "./Header/header1";
 import Herobanner from "./Homepage/Banner";
 
-import Videobutton from "./Homepage/Videobutton";
-import BlockContent from "./Homepage/BlockContent";
+import Videobutton from "./Homepage/videoButton";
+import BlockContent from "./Homepage/blockContent";
 import Tabs from "./Homepage/Tabs";
 
 import details from "./Detailspage2/details";

@@ -3,7 +3,7 @@ import createSchema from "part:@sanity/base/schema-creator";
 import schemaTypes from "all:part:@sanity/base/schema-type";
 import Header from "./Header/Header";
 import Card from "./Homepage/Card";
-import Chatbot from "./Homepage/Chatbot";
+import Chatbot from "./Homepage/chatBot";
 import Search from "./Homepage/Search";
 import Icons from "./Homepage/Icons";
 import Navigation from "./Homepage/Navigation";

@@ -5,19 +5,15 @@ export default {
   type: "object",
   icon: Icon,
   initialValue: {
-    isHighLighted: "false",
-  },
+    isHighLighted: 'false',
+    mediaType:'image'
+  },  
   fields: [
     {
       title: "Show Divider For Title",
       name: "showDividerForTitle",
       type: "boolean",
     },
-    // {
-    //   title: "Variant",
-    //   name: "variant",
-    //   type: "string",
-    // },
     {
       title: "Variant",
       name: "variant",
@@ -102,5 +98,24 @@ export default {
       type: "array",
       of: [{ type: "action" }],
     },
+    {
+      title:'Media Type',
+      name:'mediaType',
+      type:'string',
+      initialValue:{
+        type:'image'
+      },
+      options:{
+        list:[
+          {
+            title:'video',value:'video'
+          },
+          {
+            title:'image',value:'image'
+          }
+        ]
+      }
+    }
   ],
-};
+}
+

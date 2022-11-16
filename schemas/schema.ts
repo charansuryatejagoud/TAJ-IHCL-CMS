@@ -7,6 +7,8 @@ import Chatbot from "./Homepage/chatBot";
 import Search from "./Homepage/Search";
 import Icons from "./Homepage/Icons";
 import Navigation from "./Homepage/Navigation";
+import Button1 from "./Homepage/Button1";
+import Button2 from "./Homepage/Button2";
 import Footer from "./Footer/Footer";
 import ctalabel from "./Homepage/ctalabel";
 import Items from "./Homepage/Items";
@@ -31,8 +33,6 @@ import variantHeader from "./Homepage/variantHeader";
 import variantFooter from "./Homepage/variantFooter";
 import carouselItems from "./Detailspage2/carouselItems";
 import Carousel from "./Detailspage2/Carousel";
-import Button1 from "./Homepage/Button1";
-import Button2 from "./Homepage/Button2";
 
 export default createSchema({
   name: "default",

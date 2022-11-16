@@ -2,6 +2,9 @@ export default{
     title: 'Banner',
     name: 'banner',
     type: 'object',
+    initialValue:{
+       mediaType:'image'
+      },
     fields: [
         {
             title: 'Show Divider For Title',
@@ -53,5 +56,21 @@ export default{
             type: 'array',
             of: [{ type: 'bookingMask' }]
         },
+        {
+            title:'Media Type',
+            name:'mediaType',
+            type:'string',
+           
+            options:{
+              list:[
+                {
+                  title:'video',value:'video'
+                },
+                {
+                  title:'image',value:'image'
+                }
+              ]
+            }
+          }
     ]
 }

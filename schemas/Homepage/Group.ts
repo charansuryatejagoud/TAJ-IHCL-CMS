@@ -66,7 +66,9 @@ export default{
                     { title: 'group-with-large-image', value: 'group-with-large-image' },
                     { title: '4-column-rectangle-grid', value: '4-column-rectangle-grid' },
                     { title: '2-row-grid', value: '2-row-grid' },
-                    {title:'group-with-facilities',value:'group-with-facilities'}
+                    {title:'group-with-facilities',value:'group-with-facilities'},
+                    {title:'group-with-cards',value:'group-with-cards'}
+                   
                 ]
         },
     },

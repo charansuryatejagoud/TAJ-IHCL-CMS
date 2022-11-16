@@ -7,22 +7,7 @@ export default {
   initialValue: {
     titleAlignment: "regular",
   },
-  groups: [{ name: "main", title: "Main", icon: IoApps }],
-  fields: [
-    {
-      title: "Focus Title",
-      name: "focusTitle",
-      type: "string",
-      group: "main",
-    },
-    {
-      title: "Title",
-      name: "title",
-      type: "string",
-      group: "main",
-    groups: [
-        { name: 'main', title: 'Main', icon: IoApps },    
-    ],
+  
     fields: [
         {
             title: 'Show Divider For Title',
@@ -41,18 +26,7 @@ export default {
             type: 'string',
             group: 'main'
         },
-        // {
-        //     title: 'Variant',
-        //     name: 'variant',
-        //     type: 'string',
-        //     group: 'main'
-        // },
-        // {
-        //     title: 'Large Variant',
-        //     name: 'largeVariant',
-        //     type: 'string',
-        //     group: 'main'
-        // },
+       
         {
             title: 'Large Variant',
             name: 'largeVariant',
@@ -84,8 +58,52 @@ export default {
                 ]
              },
           },
+          {
+            name:'items',
+            title:'Items',
+            type:'array',
+            of:[{
+              type:'card'
+            }]
+          },
+          {
+            name:'titleAlignment',
+            title:'Title Alignment',
+            type:'string',
+            options:{
+              list:[
+                {
+                  title:'regular',value:'regular',
+
+                },
+                {
+                  title:'center',value:'center'
+                }
+              ]
+            }
+          },
+          {
+            name:'padding',
+            title:'Padding',
+            type:'number'
+          },
+          {
+            name:'subTitle',
+            title:'Sub Title',
+            type:'string'
+          },
+          {
+            name:'action',
+            title:'Action',
+            type:'array',
+            of:[
+              {
+                type:'action'
+              }
+            ]
+          }
        ]
      }
-   ]
-}
+  //  ]
+// }
 

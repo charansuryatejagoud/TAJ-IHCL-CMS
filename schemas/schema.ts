@@ -22,11 +22,9 @@ import Group from "./Homepage/Group";
 import Bottom from "./Homepage/Bottom";
 import header1 from "./Header/header1";
 import Herobanner from "./Homepage/Banner";
-
 import Videobutton from "./Homepage/videoButton";
 import BlockContent from "./Homepage/blockContent";
 import Tabs from "./Homepage/Tabs";
-
 import details from "./Detailspage2/details";
 import variantHeader from "./Homepage/variantHeader";
 import variantFooter from "./Homepage/variantFooter";

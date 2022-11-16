@@ -26,6 +26,5 @@ export default {
             name: 'url',
             type: 'string'
         },
-       
     ]
 }

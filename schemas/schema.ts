@@ -8,7 +8,6 @@ import Search from "./Homepage/Search";
 import Icons from "./Homepage/Icons";
 import Navigation from "./Homepage/Navigation";
 import Button1 from "./Homepage/Button1";
-import Button2 from "./Homepage/Button2";
 import Footer from "./Footer/Footer";
 import ctalabel from "./Homepage/ctalabel";
 import Items from "./Homepage/Items";
@@ -43,7 +42,6 @@ export default createSchema({
     Icons,
     Navigation,
     Button1,
-    Button2,
     Footer,
     ctalabel,
     Items,

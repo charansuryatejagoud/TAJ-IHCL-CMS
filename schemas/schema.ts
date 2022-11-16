@@ -31,8 +31,8 @@ import variantHeader from "./Homepage/variantHeader";
 import variantFooter from "./Homepage/variantFooter";
 import carouselItems from "./Detailspage2/carouselItems";
 import Carousel from "./Detailspage2/Carousel";
-import primary from "./Homepage/primary";
-import secondary from "./Homepage/secondary";
+import Button1 from "./Homepage/Button1";
+import Button2 from "./Homepage/Button2";
 
 export default createSchema({
   name: "default",
@@ -42,8 +42,8 @@ export default createSchema({
     Chatbot,
     Icons,
     Navigation,
-    primary,
-    secondary,
+    Button1,
+    Button2,
     Footer,
     ctalabel,
     Items,

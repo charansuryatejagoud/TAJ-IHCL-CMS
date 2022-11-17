@@ -1,6 +1,7 @@
 
 import { BsFillFileEarmarkPptFill} from "react-icons/bs";
-import { pathRule } from "../static/shared-utils";
+import { client } from "../static/shared-utils";
+// import { pathRule } from "../static/shared-utils";
 export default { 
     title: 'Page',
     name: 'page',
@@ -16,21 +17,36 @@ export default {
             title: 'Path',
             name: 'path',
             type: 'string',
-            validation:(Rule)=>Rule.custom((path)=>{
-              if( path== pathRule){
-                return true
-              }
-              if(path=="page"){
-                return "This URL all ready used"
-              }
-              if(typeof path==="string"){
-                return true
-            }
-                else{
-                    return "Not valid URL"
-                }
-             },
-         )
+       
+
+        validation: (Rule) =>
+
+        Rule.required().custom(async (path, { document }) => {
+
+          const documentId = document._id.replace("drafts.", "");
+
+
+
+          // Finds a page which has the currently specified path, excluding the current page
+
+          const page = await client.fetch(
+
+            `*[_type == "page" && path == "${path}" && !(_id match "*${documentId}")]{_id}[0]`,
+
+          );
+
+          const pageExists = !!page;
+
+
+
+          // Returns an error message if page exists, else the validation is true
+
+          return pageExists ? "This path is already in use." : true;
+
+        }),
+
+
+
         },
         {
             title: 'Header',

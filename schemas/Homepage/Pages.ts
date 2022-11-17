@@ -1,4 +1,7 @@
-import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default { 
+
+import { BsFillFileEarmarkPptFill} from "react-icons/bs";
+import { pathRule } from "../static/shared-utils";
+export default { 
     title: 'Page',
     name: 'page',
     type: 'document',
@@ -12,7 +15,28 @@ import { BsFillFileEarmarkPptFill} from "react-icons/bs";export default {
         {
             title: 'Path',
             name: 'path',
-            type: 'string'
+            type: 'string',
+            validation:(Rule)=>Rule.custom((path)=>{
+                if(typeof path==="string"){
+                    return true
+                }
+           
+              if( path== pathRule){
+                return true
+              }
+                
+                // const regex = /([ABCEGHJ-NPRSTVXY]\d[A-Z])[\s\-]?(\d[A-Z]\d)/gi
+                // if (regex.test(path)) {
+                //     return true
+                // }
+                // if(path=="page"){
+                //     return "This url is all ready used"
+                // }
+                else{
+                    return "Not valid URL"
+                }
+             },
+         )
         },
         {
             title: 'Header',

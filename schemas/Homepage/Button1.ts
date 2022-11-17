@@ -11,7 +11,7 @@ export default {
         {
             title: 'Check Box',
             name: 'checkBox',
-            type: 'string',
+             type: 'string',
             options: {
                 list: [
                     { title: 'Internal',value: 'internal' },

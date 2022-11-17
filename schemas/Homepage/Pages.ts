@@ -17,21 +17,15 @@ export default {
             name: 'path',
             type: 'string',
             validation:(Rule)=>Rule.custom((path)=>{
-                if(typeof path==="string"){
-                    return true
-                }
-           
               if( path== pathRule){
                 return true
               }
-                
-                // const regex = /([ABCEGHJ-NPRSTVXY]\d[A-Z])[\s\-]?(\d[A-Z]\d)/gi
-                // if (regex.test(path)) {
-                //     return true
-                // }
-                // if(path=="page"){
-                //     return "This url is all ready used"
-                // }
+              if(path=="page"){
+                return "This URL all ready used"
+              }
+              if(typeof path==="string"){
+                return true
+            }
                 else{
                     return "Not valid URL"
                 }

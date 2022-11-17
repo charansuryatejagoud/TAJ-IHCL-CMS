@@ -79,7 +79,6 @@ export default {
       type: 'array',
       of: [{ type: 'media' }],
     },
-
     // {
     //     name: 'links',
     //     type: 'array',

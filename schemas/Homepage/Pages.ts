@@ -31,7 +31,8 @@ export default {
 
           const page = await client.fetch(
 
-            `*[_type == "page" && path == "${path}" && !(_id match "*${documentId}")]{_id}[0]`,
+            `*[_type == "page" && path == "${path}"
+            //  && !(_id match "*${documentId}")]{_id}[0]`,
 
           );
 
@@ -41,7 +42,7 @@ export default {
 
           // Returns an error message if page exists, else the validation is true
 
-          return pageExists ? "This path is already in use." : true;
+          return pageExists ? "This path is already  used." : true;
 
         }),
 

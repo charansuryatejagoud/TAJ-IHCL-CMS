@@ -1,49 +1,45 @@
-// export const pathRule=(Rule)=>
-// Rule.uri({
-//     allowRelative:false,
-//     scheme:["https"],
-// })
+
 import sanityClient from "part:@sanity/base/client";
-import { supportedDocumentFormats } from "../Homepage/Constants";
+// import { supportedDocumentFormats } from "../Homepage/Constants";
 export const client = sanityClient.withConfig({ apiVersion: "v2021-10-21" });
 
 
 
-export const fileValidationRule = (Rule) =>
+// export const fileValidationRule = (Rule) =>
 
-  Rule.required().custom((fields) => {
+//   Rule.required().custom((fields) => {
 
-    let ext;
+//     let ext;
 
-    if (fields?._upload) {
+//     if (fields?._upload) {
 
-      const nameChunks = fields?._upload?.file?.name?.split(".") || [];
+//       const nameChunks = fields?._upload?.file?.name?.split(".") || [];
 
-      ext = nameChunks[nameChunks.length - 1];
+//       ext = nameChunks[nameChunks.length - 1];
 
-    }
+//     }
 
-    if (fields?.asset) {
+//     if (fields?.asset) {
 
-      const nameChunks = fields?.asset?._ref?.split("-") || [];
+//       const nameChunks = fields?.asset?._ref?.split("-") || [];
 
-      ext = nameChunks[nameChunks.length - 1];
+//       ext = nameChunks[nameChunks.length - 1];
 
-    }
+//     }
 
-    if (!ext || !supportedDocumentFormats.includes(ext?.toLowerCase()))
+//     if (!ext || !supportedDocumentFormats.includes(ext?.toLowerCase()))
 
-      return `${
+//       return `${
 
-        ext || "File"
+//         ext || "File"
 
-      } is not supported. Only supported file types are ${supportedDocumentFormats.join(
+//       } is not supported. Only supported file types are ${supportedDocumentFormats.join(
 
-        ", ",
+//         ", ",
 
-      )}`;
+//       )}`;
 
-    return true;
+//     return true;
 
-  });
+//   });
 

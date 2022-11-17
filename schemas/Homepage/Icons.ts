@@ -4,14 +4,15 @@ export default {
     type: 'object',
     fields:[
         {
-            title: 'Icons',
-            name: 'icons',
-            type: 'image'
+            title: 'Title',
+            name: 'title',
+            type: 'string'
         },
         {
-            title: 'Url',
-            name: 'url',
-            type: 'string'
+            title: 'Icons',
+            name: 'icons',
+            type: 'array',
+            of: [{ type: 'brands' }]
         }
     ]
 }

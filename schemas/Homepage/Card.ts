@@ -1,3 +1,4 @@
+import { type } from "os";
 import { IoApps, IoCard as Icon, IoSettings } from "react-icons/io5";
 export default {
   title: "Card",
@@ -6,8 +7,9 @@ export default {
   icon: Icon,
   initialValue: {
     isHighLighted: 'false',
-    mediaType:'image'
-  },  
+    
+
+  },
   fields: [
     {
       title: "Show Divider For Title",
@@ -99,22 +101,24 @@ export default {
       of: [{ type: "action" }],
     },
     {
-      title:'Media Type',
-      name:'mediaType',
-      type:'string',
-      initialValue:{
-        type:'image'
-      },
-      options:{
-        list:[
-          {
-            title:'video',value:'video'
-          },
-          {
-            title:'image',value:'image'
-          }
-        ]
-      }
+      title: 'Media Type',
+      name: 'mediaType',
+      type: 'videoButton',
+      // to:[
+      //   {
+      //     type:'videoButton'
+      //   }
+      // ]
+      // options: {
+      //   list: [
+      //     {
+      //       title: 'video', value: 'video',
+      //     },
+      //     {
+      //       title: 'image', value: 'image'
+      //     }
+      //   ]
+      // }
     }
   ],
 }

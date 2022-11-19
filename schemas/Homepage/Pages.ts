@@ -1,12 +1,11 @@
 
-import { BsFillFileEarmarkPptFill} from "react-icons/bs";
+import { BsFillFileEarmarkPptFill } from "react-icons/bs";
 import { client } from "../static/shared-utils";
-// import { pathRule } from "../static/shared-utils";
-export default { 
+export default {
     title: 'Page',
     name: 'page',
     type: 'document',
-    icon:BsFillFileEarmarkPptFill,
+    icon: BsFillFileEarmarkPptFill,
     fields: [
         {
             title: 'Title',
@@ -17,36 +16,25 @@ export default {
             title: 'Path',
             name: 'path',
             type: 'string',
-       
-
-        validation: (Rule) =>
-
-        Rule.required().custom(async (path, { document }) => {
-
-          const documentId = document._id.replace("drafts.", "");
 
 
+            validation: (Rule) =>
 
-          // Finds a page which has the currently specified path, excluding the current page
+                Rule.required().custom(async (path, { document }) => {
 
-          const page = await client.fetch(
+                    const documentId = document._id.replace("drafts.", "");
 
-            `*[_type == "page" && path == "${path}"
-            //  && !(_id match "*${documentId}")]{_id}[0]`,
+                    const page = await client.fetch(
 
-          );
+                        `*[_type == "page" && path == "${path}"  && !(_id match "*${documentId}")]{_id}[0]`,
 
-          const pageExists = !!page;
+                    );
 
+                    const pageExists = !!page;
 
+                    return pageExists ? "This path is already  used." : true;
 
-          // Returns an error message if page exists, else the validation is true
-
-          return pageExists ? "This path is already  used." : true;
-
-        }),
-
-
+                }),
 
         },
         {
@@ -59,16 +47,16 @@ export default {
             name: 'items',
             type: 'array',
             of: [{ type: 'group' },
-                 { type: 'card' },
-                 { type: 'banner' },
-                 { type: 'tabs' },
-                 { type: 'carousel' }
-           ]
+            { type: 'card' },
+            { type: 'banner' },
+            { type: 'tabs' },
+            { type: 'carousel' }
+            ]
         },
         {
             title: 'Footer',
             name: 'footer',
-            type: 'defaultFooter',  
+            type: 'defaultFooter',
         }
     ]
 }

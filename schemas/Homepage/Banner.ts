@@ -59,18 +59,18 @@ export default{
         {
             title:'Media Type',
             name:'mediaType',
-            type:'string',
+            type:'videoButton',
            
-            options:{
-              list:[
-                {
-                  title:'video',value:'video'
-                },
-                {
-                  title:'image',value:'image'
-                }
-              ]
-            }
+            // options:{
+            //   list:[
+            //     {
+            //       title:'video',value:'video'
+            //     },
+            //     {
+            //       title:'image',value:'image'
+            //     }
+            //   ]
+            // }
           }
     ]
 }

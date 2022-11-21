@@ -7,7 +7,6 @@ export default {
   initialValue: {
     titleAlignment: "regular",
   },
-  
     fields: [
         {
             title: 'Show Divider For Title',
@@ -25,8 +24,7 @@ export default {
             name: 'title',
             type: 'string',
             group: 'main'
-        },
-       
+        }, 
         {
             title: 'Large Variant',
             name: 'largeVariant',
@@ -62,9 +60,9 @@ export default {
             name:'items',
             title:'Items',
             type:'array',
-            of:[{
-              type:'card'
-            }]
+            of:[{ type:'card' },
+            { type: 'tabs' }
+          ]
           },
           {
             name:'titleAlignment',
@@ -83,9 +81,14 @@ export default {
             }
           },
           {
-            name:'padding',
-            title:'Padding',
-            type:'number'
+            name: 'titlePadding',
+            title: 'Title Padding',
+            type: 'string'
+          },
+          {
+            name:'contentPadding',
+            title:'Content Padding',
+            type:'string'
           },
           {
             name:'subTitle',

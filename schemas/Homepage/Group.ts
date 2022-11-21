@@ -63,8 +63,13 @@ export default {
             title:'Items',
             type:'array',
             of:[{
-              type:'card'
-            }]
+              type:'card',         
+          },
+          {
+            type:'tabs'
+          }
+        ]
+
           },
           {
             name:'titleAlignment',

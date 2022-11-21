@@ -13,6 +13,7 @@ export default{
             name: 'quickLinks',
             type: 'array',
             of: [{ type: 'quickLinks' }]
-        }
+        },
+       
     ]
 }

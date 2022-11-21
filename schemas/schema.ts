@@ -16,7 +16,7 @@ import Support from "./Homepage/Support";
 import Pages from "./Homepage/Pages";
 import Brands from "./Homepage/Brands";
 import Fields from "./Homepage/Fields";
-import instagramButton from "./Homepage/instagramButton";
+import instagramButton from "./Homepage/InstagramButton";
 import downloadButtons from "./Homepage/downloadButtons";
 import Group from "./Homepage/Group";
 import Bottom from "./Homepage/Bottom";
@@ -25,7 +25,7 @@ import heroBanner from "./Homepage/Banner";
 import videoButton from "./Homepage/videoButton";
 import blockContent from "./Homepage/blockContent";
 import Tabs from "./Homepage/Tabs";
-import details from "./Detailspage2/details";
+import Details from "./Detailspage2/Details";
 import variantHeader from "./Homepage/variantHeader";
 import variantFooter from "./Homepage/variantFooter";
 import carouselItems from "./Detailspage2/carouselItems";
@@ -60,7 +60,7 @@ export default createSchema({
     videoButton,
     blockContent,
     Tabs,
-    details,
+    Details,
     variantFooter,
     carouselItems,
     variantHeader,

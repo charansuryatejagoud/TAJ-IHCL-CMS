@@ -62,8 +62,8 @@ export default {
       title: 'Items',
       type: 'array',
       of: [{ type: 'card' },
-      { type: 'tabs' }
-      ]
+           { type: 'tabs' }
+       ]
     },
     {
       name: 'titleAlignment',
@@ -71,10 +71,7 @@ export default {
       type: 'string',
       options: {
         list: [
-          {
-            title: 'regular', value: 'regular',
-
-          },
+          { title: 'regular', value: 'regular' },
           { title: 'center', value: 'center' }
         ]
       }
@@ -99,9 +96,7 @@ export default {
       title: 'Action',
       type: 'array',
       of: [
-        {
-          type: 'action'
-        }
+        { type: 'action' }
       ]
     }
   ]

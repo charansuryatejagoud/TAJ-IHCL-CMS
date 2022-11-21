@@ -45,6 +45,8 @@ export default {
                     { title: 'group-with-links', value: 'group-with-links' },
                     { title: 'group-with-maps', value: 'group-with-maps' },
                     { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
+
+                    
                     { title: 'card-with-focused-title', value: 'card-with-focused-title' },
                     { title: '2-column-carousel-with-button-and-link', value: '2-column-carousel-with-button-and-link' },
                     { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },

@@ -46,7 +46,7 @@ export default {
                     { title: 'group-with-maps', value: 'group-with-maps' },
                     { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
 
-                    
+
                     { title: 'card-with-focused-title', value: 'card-with-focused-title' },
                     { title: '2-column-carousel-with-button-and-link', value: '2-column-carousel-with-button-and-link' },
                     { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
@@ -57,6 +57,7 @@ export default {
                     { title: '2-row-grid', value: '2-row-grid' },
                     {title:'group-with-facilities',value:'group-with-facilities'},
                     {title:'group-with-cards',value:'group-with-cards'},
+                    {title:'group-with-cards-1',value:'group-with-cards-1'},
                     {title:'3-cards-carousel',value:'3-cards-carousel'}
                 ]
              },

@@ -71,10 +71,7 @@ export default {
       type: 'string',
       options: {
         list: [
-          {
-            title: 'regular', value: 'regular',
-
-          },
+          { title: 'regular', value: 'regular' },
           { title: 'center', value: 'center' }
         ]
       }

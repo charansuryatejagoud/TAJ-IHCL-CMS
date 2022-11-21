@@ -54,7 +54,8 @@ export default {
                     { title: '4-column-rectangle-grid', value: '4-column-rectangle-grid' },
                     { title: '2-row-grid', value: '2-row-grid' },
                     {title:'group-with-facilities',value:'group-with-facilities'},
-                    {title:'group-with-cards',value:'group-with-cards'}
+                    {title:'group-with-cards',value:'group-with-cards'},
+                    {title:'3-cards-carousel',value:'3-cards-carousel'}
                 ]
              },
           },
@@ -67,7 +68,7 @@ export default {
           },
           {
             type:'tabs'
-          }
+          } 
         ]
 
           },

@@ -73,11 +73,11 @@ export default {
       name: "largeImage",
       type: "image",
     },
-    {
-      title: "Focus Title",
-      name: "focusTitle",
-      type: "string",
-    },
+    // {
+    //   title: "Focus Title",
+    //   name: "focusTitle",
+    //   type: "string",
+    // },
     {
       title: "Sub Title",
       name: "subTitle",
@@ -109,21 +109,7 @@ export default {
       name: 'mediaType',
       type: 'videoButton',
     
-      // to:[
-      //   {
-      //     type:'videoButton'
-      //   }
-      // ]
-      // options: {
-      //   list: [
-      //     {
-      //       title: 'video', value: 'video',
-      //     },
-      //     {
-      //       title: 'image', value: 'image'
-      //     }
-      //   ]
-      // }
+    
     },
     
   ],

@@ -8,6 +8,7 @@ export default {
   initialValue: {
     isHighLighted: 'false',
     
+    
 
   },
   fields: [
@@ -56,6 +57,9 @@ export default {
             title: "card-with-2-buttons-and-link",
             value: "card-with-2-buttons-and-link",
           },
+          {
+            title:'card-with-right-aligned-content',value:'card-with-right-aligned-content'
+          }
         ],
       },
     },
@@ -104,6 +108,7 @@ export default {
       title: 'Media Type',
       name: 'mediaType',
       type: 'videoButton',
+    
       // to:[
       //   {
       //     type:'videoButton'

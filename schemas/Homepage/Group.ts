@@ -52,8 +52,10 @@ export default {
           { title: '4-column-rectangle-grid', value: '4-column-rectangle-grid' },
           { title: '2-row-grid', value: '2-row-grid' },
           { title: 'group-with-facilities', value: 'group-with-facilities' },
-          { title: 'group-with-cards', value: 'group-with-cards' },
-          { title: '3-cards-carousel', value: '3-cards-carousel' }
+          { title: 'group-with-2-column-cards-grid', value: 'group-with-2-column-cards-grid' },
+          { title: 'group-with-3-column-cards-grid', value: 'group-with-3-column-cards-grid' },
+          { title: '3-cards-carousel', value: '3-cards-carousel' },
+          {title:'highlighted-2-cards-carousel',value:'highlighted-2-cards-carousel'}
         ]
       },
     },

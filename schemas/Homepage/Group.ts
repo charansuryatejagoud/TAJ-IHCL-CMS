@@ -44,7 +44,7 @@ export default {
           { title: 'group-with-maps', value: 'group-with-maps' },
           { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
           { title: 'card-with-focused-title', value: 'card-with-focused-title' },
-          { title: '2-column-carousel-with-button-and-link', value: '2-column-carousel-with-button-and-link' },
+          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' },
           { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
           { title: 'carousel-with-3-column-grid', value: 'carousel-with-3-column-grid' },
           { title: 'transparent-4-cards', value: 'transparent-4-cards' },

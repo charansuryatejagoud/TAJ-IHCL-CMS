@@ -31,7 +31,7 @@ export default {
             title: "card-with-focused-title",
             value: "card-with-focused-title",
           },
-          { title: "2-card-carousel", value: "2-card-carousel" },
+          { title: "3-actions-with-right-aligned-content-card", value: "3-actions-with-right-aligned-content-card" },
           { title: "card-with-tabs", value: "card-with-tabs" },
           { title: "single-item", value: "single-item" },
           { title: "card-with-information", value: "card-with-information" },

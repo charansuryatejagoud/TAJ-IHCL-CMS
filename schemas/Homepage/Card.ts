@@ -86,18 +86,18 @@ export default {
     {
       title: "Sub Content",
       name: "subContent",
-      type: "string",
+      type: "blockContent",
     },
     {
       title: "Title",
       name: "title",
       type: "string",
     },
-    {
-      title: "Description",
-      name: "description",
-      type: "blockContent",
-    },
+    // {
+    //   title: "Description",
+    //   name: "description",
+    //   type: "blockContent",
+    // },
     {
       title: "Action",
       name: "action",

@@ -31,6 +31,7 @@ import variantFooter from "./Homepage/variantFooter";
 import carouselItems from "./Detailspage2/carouselItems";
 import Carousel from "./Detailspage2/Carousel";
 import quickLinks from "./Homepage/quickLinks";
+import Media from "./Homepage/Media";
 
 export default createSchema({
   name: "default",
@@ -64,5 +65,6 @@ export default createSchema({
     variantFooter,
     carouselItems,
     variantHeader,
+    Media
   ]),
 });

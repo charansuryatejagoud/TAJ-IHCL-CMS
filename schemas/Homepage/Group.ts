@@ -36,7 +36,6 @@ export default {
           { title: 'single-card-carousel-with-bg-image', value: 'single-card-carousel-with-bg-image' },
           { title: 'carousel-with-award-cards', value: 'carousel-with-award-cards' },
           { title: 'multi-cards-carousel-with-bg-image', value: 'multi-cards-carousel-with-bg-image' },
-          { title: '3-column-grid-button-with-link', value: '3-column-grid-button-with-link' },
           { title: 'media-card', value: 'media-card' },
           { title: 'carousel-with-focused-title', value: 'carousel-with-focused-title' },
           { title: 'group-with-information', value: 'group-with-information' },
@@ -55,7 +54,7 @@ export default {
           { title: 'group-with-2-column-cards-grid', value: 'group-with-2-column-cards-grid' },
           { title: 'group-with-3-column-cards-grid', value: 'group-with-3-column-cards-grid' },
           { title: '3-cards-carousel', value: '3-cards-carousel' },
-          {title:'highlighted-2-cards-carousel',value:'highlighted-2-cards-carousel'}
+          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' }
         ]
       },
     },
@@ -102,6 +101,11 @@ export default {
           type: 'action'
         }
       ]
+    },
+    {
+      name:'mediaType',
+      title:'Media Type',
+      type:'mediaType'
     }
   ]
 }

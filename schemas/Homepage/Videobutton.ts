@@ -8,21 +8,7 @@ export default {
     
       },
     fields: [
-        {
-            name: 'list',
-            title: 'List',
-            type: 'string',
-            options: {
-                list: [
-                    {
-                        title: 'video', value: 'video',
-                    },
-                    {
-                        title: 'image', value: 'image'
-                    }
-                ]
-            }
-        },
+        
         {
             title: 'Image',
             name: 'image',

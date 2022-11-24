@@ -17,7 +17,8 @@ export default {
       title: 'Focus Title',
       name: 'focusTitle',
       type: 'string',
-      group: 'main'
+      
+      
     },
     {
       title: 'Title',

@@ -32,7 +32,7 @@ export default {
 
                     const pageExists = !!page;
 
-                    return pageExists ? "This path is already  used." : true;
+                    return pageExists ? "This path is already  used." : false;
 
                 }),
 

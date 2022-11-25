@@ -7,9 +7,6 @@ export default {
   icon: Icon,
   initialValue: {
     isHighLighted: 'false',
-    
-    
-
   },
   fields: [
     {
@@ -73,11 +70,6 @@ export default {
       name: "largeImage",
       type: "image",
     },
-    // {
-    //   title: "Focus Title",
-    //   name: "focusTitle",
-    //   type: "string",
-    // },
     {
       title: "Sub Title",
       name: "subTitle",
@@ -93,25 +85,12 @@ export default {
       name: "title",
       type: "string",
     },
-    // {
-    //   title: "Description",
-    //   name: "description",
-    //   type: "blockContent",
-    // },
     {
       title: "Action",
       name: "action",
       type: "array",
       of: [{ type: "action" }],
     },
-    {
-      title: 'Media Type',
-      name: 'mediaType',
-      type: 'videoButton',
-    
-    
-    },
-    
   ],
 }
 

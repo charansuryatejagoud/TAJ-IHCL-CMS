@@ -20,6 +20,11 @@ export default{
             type: 'image',
         },
         {
+            title: "Variant",
+            name: "variant",
+            type: "string",
+        },
+        {
             title: 'Large Image',
             name: 'largeImage',
             type: 'image',

@@ -104,11 +104,11 @@ export default {
         }
       ]
     },
-    {
-      name:'mediaType',
-      title:'Media Type',
-      type:'mediaType'
-    }
+    // {
+    //   name:'mediaType',
+    //   title:'Media Type',
+    //   type:'mediaType'
+    // }
   ]
 }
   //  ]

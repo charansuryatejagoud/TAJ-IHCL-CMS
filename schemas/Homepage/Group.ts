@@ -12,6 +12,7 @@ export default {
       title: 'Show Divider For Title',
       name: 'showDividerForTitle',
       type: 'boolean',
+      
     },
     {
       title: 'Focus Title',
@@ -54,7 +55,8 @@ export default {
           { title: 'group-with-2-column-cards-grid', value: 'group-with-2-column-cards-grid' },
           { title: 'group-with-3-column-cards-grid', value: 'group-with-3-column-cards-grid' },
           { title: '3-cards-carousel', value: '3-cards-carousel' },
-          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' }
+          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' },
+          { title: 'group-with-media', value: 'group-with-media' }
         ]
       },
     },

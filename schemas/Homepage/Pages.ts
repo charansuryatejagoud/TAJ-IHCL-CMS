@@ -17,7 +17,6 @@ export default {
             name: 'path',
             type: 'string',
 
-
             validation: (Rule) =>
 
                 Rule.required().custom(async (path, { document }) => {
@@ -32,7 +31,7 @@ export default {
 
                     const pageExists = !!page;
 
-                    return pageExists ? "This path is already  used." : true;
+                    return pageExists ? "This path is already  used." : false;
 
                 }),
 
@@ -50,7 +49,8 @@ export default {
             { type: 'card' },
             { type: 'banner' },
             { type: 'tabs' },
-            { type: 'carousel' }
+            { type: 'carousel' },
+            { type: 'mediaType' }
             ]
         },
         {

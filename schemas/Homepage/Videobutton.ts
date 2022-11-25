@@ -8,7 +8,6 @@ export default {
     
       },
     fields: [
-        
         {
             title: 'Image',
             name: 'image',

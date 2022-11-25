@@ -1,4 +1,5 @@
 import { MdViewHeadline } from "react-icons/md";
+import { ServiceCardBox } from "../Homepage/typography";
 export default {
   title: 'Header',
   name: 'header',
@@ -56,6 +57,12 @@ export default {
       type: 'array',
       of: [{ type: 'action' }],
     },
+    // {
+    //   name:'style',
+    //   title:'Style',
+    //   type:ServiceCardBox
+
+    // }
   ],
 };
 

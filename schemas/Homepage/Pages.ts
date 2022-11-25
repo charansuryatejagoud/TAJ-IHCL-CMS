@@ -50,7 +50,8 @@ export default {
             { type: 'card' },
             { type: 'banner' },
             { type: 'tabs' },
-            { type: 'carousel' }
+            { type: 'carousel' },
+            {type:'mediaType'}
             ]
         },
         {

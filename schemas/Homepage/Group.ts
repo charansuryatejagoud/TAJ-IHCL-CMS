@@ -103,11 +103,7 @@ export default {
         }
       ]
     },
-    {
-      name:'mediaType',
-      title:'Media Type',
-      type:'mediaType'
-    }
+   
   ]
 }
   //  ]

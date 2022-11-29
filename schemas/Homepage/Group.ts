@@ -11,27 +11,22 @@ export default {
     {
       title: 'Show Divider For Title',
       name: 'showDividerForTitle',
-      type: 'boolean',
-      
+      type: 'boolean', 
     },
     {
       title: 'Focus Title',
       name: 'focusTitle',
       type: 'string',
-      
-      
     },
     {
       title: 'Title',
       name: 'title',
       type: 'string',
-      group: 'main'
     },
     {
       title: 'Large Variant',
       name: 'largeVariant',
       type: 'string',
-      group: 'main',
       options: {
         list: [
           { title: '4-row-grid', value: '4-row-grid' },
@@ -66,7 +61,8 @@ export default {
       title: 'Items',
       type: 'array',
       of: [{ type: 'card' },
-      { type: 'tabs' }
+           { type: 'tabs' },
+           { type: 'media' }
       ]
     },
     {

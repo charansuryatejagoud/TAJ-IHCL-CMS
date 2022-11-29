@@ -2,10 +2,8 @@ export default {
     title: 'Video Button',
     name: 'videoButton',
     type: 'object',
-    initialValue: {
-        
+    initialValue: {  
        list: 'image',
-    
       },
     fields: [
         {
@@ -18,6 +16,5 @@ export default {
             name: 'url',
             type: 'string'
         },
-        
     ]
 }

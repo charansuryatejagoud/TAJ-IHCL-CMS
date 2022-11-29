@@ -42,7 +42,6 @@
           ],
         },
       },
-     
       {
         type: 'image',
         options: {hotspot: true},

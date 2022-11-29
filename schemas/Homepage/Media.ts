@@ -1,11 +1,16 @@
 export default{
-    name:'mediaType',
-    title:'Media Type',
+    name:'media',
+    title:'Media',
     type:'object',
     fields:[
         {
-            name: 'list',
-            title: 'List',
+            title: 'Show Divider For Title',
+            name: 'showDividerForTitle',
+            type: 'boolean',
+        },
+        {
+            name: 'mediaType',
+            title: 'Media Type',
             type: 'string',
             options: {
                 list: [
@@ -53,6 +58,16 @@ export default{
             title: "Sub Content",
             name: "subContent",
             type: "blockContent",
+        },
+        {
+            name: 'titlePadding',
+            title: 'Title Padding',
+            type: 'string'
+        },
+        {
+            name: 'contentPadding',
+            title: 'Content Padding',
+            type: 'string'
         },
         {
             name: 'action',

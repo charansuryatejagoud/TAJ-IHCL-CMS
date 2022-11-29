@@ -25,13 +25,13 @@ export default {
 
                     const page = await client.fetch(
 
-            `*[_type == "page" && path == "${path}"  && !(_id match "*${documentId}")]{_id}[1]`,
+            `*[_type == "page" && path == "${path}"  && !(_id match "*${documentId}")]{_id}[0]`,
 
           );
 
                     const pageExists = !!page;
 
-                    return pageExists ? "This path is already  used." : false;
+                    return pageExists ? "This path is already  used." : true;
 
                 }),
 
@@ -50,7 +50,7 @@ export default {
             { type: 'banner' },
             { type: 'tabs' },
             { type: 'carousel' },
-            { type: 'mediaType' }
+            { type: 'media' }
             ]
         },
         {

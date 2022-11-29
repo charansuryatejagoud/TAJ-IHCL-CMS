@@ -7,14 +7,35 @@ export default{
       },
     fields: [
         {
-            title: 'Show Divider For Title',
-            name: 'showDividerForTitle',
-            type: 'boolean',
+            title: 'Variant',
+            name: 'variant',
+            type: 'string'
+        },
+        {
+            title: 'Large Variant',
+            name: 'largeVariant',
+            type: 'string'
         },
         {
             title: 'Focus Title',
             name: 'focusTitle',
             type: 'string'
+        },
+        {
+            title: 'Title',
+            name: 'title',
+            type: 'string'
+        },
+        {
+            name: 'mediaType',
+            title: 'Media Type',
+            type: 'string',
+            options: {
+                list: [
+                    { title: 'video', value: 'video' },
+                    { title: 'image', value: 'image' }
+                ]
+            }
         },
         {
             title: 'Image',
@@ -29,13 +50,8 @@ export default{
             of:[{ type:'image' }]
         },
         {
-            title: 'Variant',
-            name: 'variant',
-            type: 'string'
-        },
-        {
-            title: 'Large Variant',
-            name: 'largeVariant',
+            name: 'videoUrl',
+            title: 'Video Url',
             type: 'string'
         },
         {
@@ -50,27 +66,24 @@ export default{
             type: 'array',
             of: [{ type: 'action' }]
         },
+        // {
+        //     title: 'Booking Mask',
+        //     name: 'bookingMask',
+        //     type: 'array',
+        //     of: [{ type: 'bookingMask' }]
+        // },
         {
-            title: 'Booking Mask',
-            name: 'bookingMask',
-            type: 'array',
-            of: [{ type: 'bookingMask' }]
-        },
-        {
-            title:'Media Type',
-            name:'mediaType',
-            type:'videoButton',
-           
-            // options:{
-            //   list:[
-            //     {
-            //       title:'video',value:'video'
-            //     },
-            //     {
-            //       title:'image',value:'image'
-            //     }
-            //   ]
-            // }
+            title: "Video blog post",
+            name: "videoBlogPost",
+            type: "document",
+            fields: [
+              { title: "Title", name: "title", type: "string" },
+              {
+                title: "Video file",
+                name: "video",
+                type: "mux.video"
+              }
+            ]
           }
     ]
 }

@@ -18,7 +18,6 @@ export default {
       title: "Variant",
       name: "variant",
       type: "string",
-      group: "main",
       options: {
         list: [
           { title: "simple-media", value: "simple-media" },
@@ -71,6 +70,11 @@ export default {
       type: "image",
     },
     {
+      title: "Title",
+      name: "title",
+      type: "string",
+    },
+    {
       title: "Sub Title",
       name: "subTitle",
       type: "string",
@@ -79,11 +83,6 @@ export default {
       title: "Sub Content",
       name: "subContent",
       type: "blockContent",
-    },
-    {
-      title: "Title",
-      name: "title",
-      type: "string",
     },
     {
       title: "Action",

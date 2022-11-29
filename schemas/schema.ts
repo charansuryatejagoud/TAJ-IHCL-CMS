@@ -11,7 +11,6 @@ import Button1 from "./Homepage/Button1";
 import Footer from "./Footer/Footer";
 import ctaLabel from "./Homepage/ctaLabel";
 import Items from "./Homepage/Items";
-
 import Support from "./Homepage/Support";
 import Pages from "./Homepage/Pages";
 import Brands from "./Homepage/Brands";
@@ -65,6 +64,6 @@ export default createSchema({
     variantFooter,
     carouselItems,
     variantHeader,
-    Media
+    Media,
   ]),
 });

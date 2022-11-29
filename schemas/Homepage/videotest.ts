@@ -1,5 +1,3 @@
- 
-  
   export default{
     name:'test1',
     title:'Test1',

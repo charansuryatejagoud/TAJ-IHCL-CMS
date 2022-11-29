@@ -27,8 +27,8 @@ export default{
             type: 'string'
         },
         {
-            name: 'mediaType',
-            title: 'Media Type',
+            name: 'media',
+            title: 'Media',
             type: 'string',
             options: {
                 list: [
@@ -82,17 +82,6 @@ export default{
             title:'Media Type',
             name:'mediaType',
             type:'videoButton',
-           
-            // options:{
-            //   list:[
-            //     {
-            //       title:'video',value:'video'
-            //     },
-            //     {
-            //       title:'image',value:'image'
-            //     }
-            //   ]
-            // }
           }
     ]
 }

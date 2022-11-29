@@ -1,5 +1,4 @@
 import { MdViewHeadline } from "react-icons/md";
-import { ServiceCardBox } from "../Homepage/typography";
 export default {
   title: 'Header',
   name: 'header',

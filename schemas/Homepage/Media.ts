@@ -1,10 +1,6 @@
 export default{
     name:'media',
-<<<<<<< HEAD
     title:'Media',
-=======
-    title:'Media ',
->>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
     type:'object',
     initialValue:{
         mediaType:'image'
@@ -13,13 +9,8 @@ export default{
         {
             title: 'Show Divider For Title',
             name: 'showDividerForTitle',
-            type: 'boolean',
-<<<<<<< HEAD
-        },
-=======
-            
-          },
->>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
+            type: 'boolean'  
+         },
         {
             name: 'mediaType',
             title: 'Media Type',

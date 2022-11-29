@@ -1,35 +1,42 @@
 export default{
     name:'media',
-<<<<<<< HEAD
     title:'Media',
-=======
-    title:'Media ',
->>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
     type:'object',
     initialValue:{
         mediaType:'image'
     },
     fields:[
+        // {
+        //     title: 'Show Divider For Title',
+        //     name: 'showDividerForTitle',
+        //     type: 'boolean',
+        // },
+        // {
+        //     name: 'video',
+        //     title: 'Video',
+        //     type: 'boolean',
+
+        // },
+        // {
+        //     name: 'allLink',
+        //     title: 'See all',
+        //     type: 'videoButton',
+        //     hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.video),
+
+        // },
+        // {
+        //     name: 'image',
+        //     title: 'Image',
+        //     type: 'boolean',
+
+        // },
         {
-            title: 'Show Divider For Title',
-            name: 'showDividerForTitle',
-            type: 'boolean',
-<<<<<<< HEAD
-        },
-=======
-            
-          },
->>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
-        {
-            name: 'mediaType',
-            title: 'Media Type',
-            type: 'string',
-            options: {
-                list: [
-                    { title: 'video', value: 'video' },
-                    { title: 'image', value: 'image' }
-                ]
-            }
+            name: 'alternateAllLink',
+            title: 'Alternate See all',
+            type: 'downloadButtons',
+            hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.image),
+
+
         },
         {
             title: 'Image',
@@ -49,7 +56,13 @@ export default{
         {
             name: 'videoUrl',
             title: 'Video Url',
-            type: 'string'
+            type: 'file',
+
+            options: {
+
+                accept: 'video/mp4'
+
+            }
         },
         {
             title: 'Focus Title',

@@ -52,7 +52,11 @@ export default{
         {
             name: 'videoUrl',
             title: 'Video Url',
-            type: 'string'
+            type: 'file',
+            options: {
+                accept: 'video/mp4'
+
+            }
         },
         {
             title: 'Chat Bot',
@@ -66,33 +70,12 @@ export default{
             type: 'array',
             of: [{ type: 'action' }]
         },
-        // {
-        //     title: 'Booking Mask',
-        //     name: 'bookingMask',
-        //     type: 'array',
-        //     of: [{ type: 'bookingMask' }]
-        // },
+       
         {
             title: 'Booking Mask',
             name: 'bookingMask',
             type: 'array',
             of: [{ type: 'bookingMask' }]
         },
-        {
-            title:'Media Type',
-            name:'mediaType',
-            type:'videoButton',
-           
-            // options:{
-            //   list:[
-            //     {
-            //       title:'video',value:'video'
-            //     },
-            //     {
-            //       title:'image',value:'image'
-            //     }
-            //   ]
-            // }
-          }
     ]
 }

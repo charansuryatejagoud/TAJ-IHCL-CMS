@@ -7,9 +7,6 @@ export default {
   icon: Icon,
   initialValue: {
     isHighLighted: 'false',
-    
-    
-
   },
   fields: [
     {
@@ -21,7 +18,7 @@ export default {
       title: "Variant",
       name: "variant",
       type: "string",
-      group: "main",
+     
       options: {
         list: [
           { title: "simple-media", value: "simple-media" },
@@ -32,7 +29,7 @@ export default {
             title: "card-with-focused-title",
             value: "card-with-focused-title",
           },
-          { title: "2-card-carousel", value: "2-card-carousel" },
+          { title: "3-actions-with-right-aligned-content-card", value: "3-actions-with-right-aligned-content-card" },
           { title: "card-with-tabs", value: "card-with-tabs" },
           { title: "single-item", value: "single-item" },
           { title: "card-with-information", value: "card-with-information" },
@@ -73,11 +70,6 @@ export default {
       name: "largeImage",
       type: "image",
     },
-    // {
-    //   title: "Focus Title",
-    //   name: "focusTitle",
-    //   type: "string",
-    // },
     {
       title: "Sub Title",
       name: "subTitle",
@@ -86,7 +78,7 @@ export default {
     {
       title: "Sub Content",
       name: "subContent",
-      type: "string",
+      type: "blockContent",
     },
     {
       title: "Title",
@@ -94,24 +86,11 @@ export default {
       type: "string",
     },
     {
-      title: "Description",
-      name: "description",
-      type: "blockContent",
-    },
-    {
       title: "Action",
       name: "action",
       type: "array",
       of: [{ type: "action" }],
     },
-    {
-      title: 'Media Type',
-      name: 'mediaType',
-      type: 'videoButton',
-    
-    
-    },
-    
   ],
 }
 

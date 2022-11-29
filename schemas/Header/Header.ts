@@ -35,6 +35,11 @@ export default {
       type: 'image',
     },
     {
+      title: 'Secondary Logo',
+      name: 'secondaryLogo',
+      type: 'image',
+    },
+    {
       title: 'Detail List',
       name: 'detailList',
       type: 'array',

@@ -77,7 +77,7 @@ export default {
       title: 'Icons',
       name: 'icons',
       type: 'array',
-      of: [{ type: 'media' }],
+      of: [{ type: 'icon' }],
     },
     // {
     //     name: 'links',

@@ -12,6 +12,7 @@ export default {
       title: 'Show Divider For Title',
       name: 'showDividerForTitle',
       type: 'boolean',
+      
     },
     {
       title: 'Focus Title',
@@ -24,13 +25,13 @@ export default {
       title: 'Title',
       name: 'title',
       type: 'string',
-      group: 'main'
+      
     },
     {
       title: 'Large Variant',
       name: 'largeVariant',
       type: 'string',
-      group: 'main',
+      
       options: {
         list: [
           { title: '4-row-grid', value: '4-row-grid' },
@@ -44,7 +45,7 @@ export default {
           { title: 'group-with-maps', value: 'group-with-maps' },
           { title: 'card-with-right-aligned-content', value: 'card-with-right-aligned-content' },
           { title: 'card-with-focused-title', value: 'card-with-focused-title' },
-          { title: '2-column-carousel-with-button-and-link', value: '2-column-carousel-with-button-and-link' },
+          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' },
           { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
           { title: 'carousel-with-3-column-grid', value: 'carousel-with-3-column-grid' },
           { title: 'transparent-4-cards', value: 'transparent-4-cards' },
@@ -55,7 +56,8 @@ export default {
           { title: 'group-with-2-column-cards-grid', value: 'group-with-2-column-cards-grid' },
           { title: 'group-with-3-column-cards-grid', value: 'group-with-3-column-cards-grid' },
           { title: '3-cards-carousel', value: '3-cards-carousel' },
-          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' }
+          { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' },
+          { title: 'group-with-media', value: 'group-with-media' }
         ]
       },
     },
@@ -64,7 +66,8 @@ export default {
       title: 'Items',
       type: 'array',
       of: [{ type: 'card' },
-      { type: 'tabs' }
+      { type: 'tabs' },
+      {type:'media'}
       ]
     },
     {
@@ -103,7 +106,7 @@ export default {
         }
       ]
     },
-   
+    
   ]
 }
   //  ]

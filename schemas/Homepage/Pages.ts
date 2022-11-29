@@ -17,7 +17,6 @@ export default {
             name: 'path',
             type: 'string',
 
-
             validation: (Rule) =>
 
                 Rule.required().custom(async (path, { document }) => {
@@ -51,7 +50,8 @@ export default {
             { type: 'banner' },
             { type: 'tabs' },
             { type: 'carousel' },
-            {type:'mediaType'}
+            {type:'media'},
+            {type:'test'}
             ]
         },
         {

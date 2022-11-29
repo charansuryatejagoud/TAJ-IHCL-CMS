@@ -1,6 +1,6 @@
 export default {
-    title: 'Media',
-    name: 'media',
+    title: 'Icon',
+    name: 'icon',
     type: 'object',
     fields:[
         {

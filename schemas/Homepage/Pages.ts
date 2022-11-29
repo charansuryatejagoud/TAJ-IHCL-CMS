@@ -50,10 +50,8 @@ export default {
             { type: 'banner' },
             { type: 'tabs' },
             { type: 'carousel' },
-            {type:'media'},
-            {
-             type: 'test'
-            }
+            { type: 'media' },
+            {type:'test'}
             ]
         },
         {

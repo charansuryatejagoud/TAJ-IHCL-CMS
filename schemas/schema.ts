@@ -31,6 +31,7 @@ import carouselItems from "./Detailspage2/carouselItems";
 import Carousel from "./Detailspage2/Carousel";
 import quickLinks from "./Homepage/quickLinks";
 import Media from "./Homepage/Media";
+import demo from "./Homepage/demo";
 
 export default createSchema({
   name: "default",
@@ -65,5 +66,9 @@ export default createSchema({
     carouselItems,
     variantHeader,
     Media,
+<<<<<<< HEAD
+=======
+    demo
+>>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
   ]),
 });

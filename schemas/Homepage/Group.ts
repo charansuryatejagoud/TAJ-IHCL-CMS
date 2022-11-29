@@ -22,11 +22,19 @@ export default {
       title: 'Title',
       name: 'title',
       type: 'string',
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
     },
     {
       title: 'Large Variant',
       name: 'largeVariant',
       type: 'string',
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
       options: {
         list: [
           { title: '4-row-grid', value: '4-row-grid' },
@@ -61,8 +69,13 @@ export default {
       title: 'Items',
       type: 'array',
       of: [{ type: 'card' },
+<<<<<<< HEAD
            { type: 'tabs' },
            { type: 'media' }
+=======
+      { type: 'tabs' },
+      {type:'media'}
+>>>>>>> 15cd2a076a7d37236a0348d3dbcc69b5594e68ce
       ]
     },
     {
@@ -101,11 +114,7 @@ export default {
         }
       ]
     },
-    // {
-    //   name:'mediaType',
-    //   title:'Media Type',
-    //   type:'mediaType'
-    // }
+    
   ]
 }
   //  ]

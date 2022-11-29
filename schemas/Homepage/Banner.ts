@@ -73,17 +73,26 @@ export default{
         //     of: [{ type: 'bookingMask' }]
         // },
         {
-            title: "Video blog post",
-            name: "videoBlogPost",
-            type: "document",
-            fields: [
-              { title: "Title", name: "title", type: "string" },
-              {
-                title: "Video file",
-                name: "video",
-                type: "mux.video"
-              }
-            ]
+            title: 'Booking Mask',
+            name: 'bookingMask',
+            type: 'array',
+            of: [{ type: 'bookingMask' }]
+        },
+        {
+            title:'Media Type',
+            name:'mediaType',
+            type:'videoButton',
+           
+            // options:{
+            //   list:[
+            //     {
+            //       title:'video',value:'video'
+            //     },
+            //     {
+            //       title:'image',value:'image'
+            //     }
+            //   ]
+            // }
           }
     ]
 }

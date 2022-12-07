@@ -30,14 +30,14 @@ export default{
         //     type: 'boolean',
 
         // },
-        {
-            name: 'alternateAllLink',
-            title: 'Alternate See all',
-            type: 'downloadButtons',
-            hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.image),
+        // {
+        //     name: 'alternateAllLink',
+        //     title: 'Alternate See all',
+        //     type: 'downloadButtons',
+        //     hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.image),
 
 
-        },
+        // },
         {
             title: 'Image',
             name: 'image',

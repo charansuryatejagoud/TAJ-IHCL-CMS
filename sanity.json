@@ -19,7 +19,6 @@
       "plugins": [
         "@sanity/vision"
       ]
-
     }
   },
   "parts": [

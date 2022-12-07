@@ -26,8 +26,8 @@
     "react-dom": "^17.0",
     "react-icons": "^4.3.1",
     "sanity": "^3.0.0-rc.3",
-    "sanity-plugin-mux-input": "^2.0.1",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "table": "^6.8.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.8",

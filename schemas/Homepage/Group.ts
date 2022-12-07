@@ -9,6 +9,12 @@ export default {
   },
   fields: [
     {
+      name:'showBgColor',
+      title:'Show Bg Color',
+      type:'boolean',
+      initialValue:'false'
+    },
+    {
       title: 'Show Divider For Title',
       name: 'showDividerForTitle',
       type: 'boolean', 
@@ -101,6 +107,7 @@ export default {
         }
       ]
     },
+   
     
   ]
 }

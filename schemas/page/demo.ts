@@ -2,6 +2,9 @@ export default {
     name: 'test',
     title: 'Test',
     type: 'document',
+    fieldsets: [
+        {name: 'social', title: 'Social media handles'}
+      ],
     fields: [
         {
             name: 'video',
@@ -33,6 +36,28 @@ export default {
                 accept: 'video/mp4'
             }
         },
+        // {
+        //     name:'table',
+        //     title:'Table',
+        //     type:'table'
+        // },
+            {
+              title: 'Name',
+              name: 'name',
+              type: 'string'
+            },
+            {
+              title: 'Twitter',
+              name: 'twitter',
+              type: 'string',
+              fieldset: 'social'
+            },
+            {
+              title: 'Instagram',
+              name: 'instagram',
+              type: 'string',
+              fieldset: 'social'
+            },
         {
             title: 'Title',
             name: 'title',

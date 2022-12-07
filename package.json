@@ -29,9 +29,14 @@
     "react-dom": "^17.0",
     "react-icons": "^4.3.1",
     "sanity": "^3.0.0-rc.3",
+<<<<<<< HEAD
+    "styled-components": "^5.2.0",
+    "table": "^6.8.1"
+=======
     "sanity-plugin-mux-input": "^1.1.9",
     "sanity-plugin-table": "^2.3.0",
     "styled-components": "^5.2.0"
+>>>>>>> be5b7b894b4a9c3455df94967558313ec7df757d
   },
   "devDependencies": {
     "@types/node": "^17.0.8",

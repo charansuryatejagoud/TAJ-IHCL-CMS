@@ -12,8 +12,8 @@ export default{
             type: 'string',
             options:{
                 list:[
-                    { title: 'variant-1', value: 'variant-1' },
-                    { title: 'variant-2', value: 'variant-2' },
+                    // { title: 'variant-1', value: 'variant-1' },
+                    // { title: 'variant-2', value: 'variant-2' },
                     { title: 'default', value: 'default' }
                 ]
             }

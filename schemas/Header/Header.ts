@@ -42,13 +42,19 @@ export default {
       title: 'Detail List',
       name: 'detailList',
       type: 'array',
-      of: [{ type: 'fields' }],
+      of: [{ type: 'ctaLabel' }],
     },
     {
       title: 'Login List',
       name: 'loginList',
       type: 'array',
-      of: [{ type: 'header1', }],
+      of: [{ type: 'ctaLabel', }],
+    },
+    {  
+       title: 'Cart Icon',
+       name: 'cartIcon',
+       type: 'array',
+       of: [{ type: 'cartIcon' }]
     },
     {
       title: 'Action',
@@ -56,12 +62,12 @@ export default {
       type: 'array',
       of: [{ type: 'action' }],
     },
-    // {
-    //   name:'style',
-    //   title:'Style',
-    //   type:ServiceCardBox
-
-    // }
   ],
+  preview: {
+    select: {
+        title: 'title',
+        subtitle: 'variant',
+    },
+},
 };
 

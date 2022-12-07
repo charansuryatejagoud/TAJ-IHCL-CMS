@@ -59,7 +59,7 @@ export default {
       title: 'Download Buttons',
       name: 'downloadButtons',
       type: 'array',
-      of: [{ type: 'downloadButtons' }],
+      of: [{ type: 'brands' }],
     },
     {
       title: 'Brands',
@@ -71,7 +71,7 @@ export default {
       title: 'Legal Information',
       name: 'legalInformation',
       type: 'array',
-      of: [{ type: 'bottom' }],
+      of: [{ type: 'ctaLabel' }],
     },
     {
       title: 'Icons',
@@ -79,25 +79,5 @@ export default {
       type: 'array',
       of: [{ type: 'icon' }],
     },
-    // {
-    //     name: 'links',
-    //     type: 'array',
-    //     of: [{ type: 'string' }]
-    // },
-    // {
-    //     name: 'search',
-    //     type: 'array',
-    //     of: [{ type: 'string' }]
-    // },
-    // {
-    //     name: 'barcode',
-    //     type: 'array',
-    //     of: [{ type: 'image'}]
-    // },
-    // {
-    //     name: 'sub_content',
-    //     type: 'array',
-    //     of: [{ type: 'string' }]
-    // }
   ],
 };

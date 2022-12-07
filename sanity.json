@@ -11,15 +11,14 @@
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
-   
+    "@sanity/desk-tool",
+    "table"
   ],
   "env": {
     "development": {
       "plugins": [
         "@sanity/vision"
       ]
-
     }
   },
   "parts": [

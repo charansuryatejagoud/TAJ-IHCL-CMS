@@ -1,5 +1,4 @@
-
- export default {
+  export default {
     title: 'Block Content',
     name: 'blockContent',
     type: 'array',
@@ -7,7 +6,6 @@
       {
         title: 'Block',
         type: 'block',
-       
         styles: [
           {title: 'Normal', value: 'normal'},
           {title: 'H1', value: 'h1'},
@@ -18,14 +16,11 @@
         ],
         lists: [{title: 'Bullet', value: 'bullet'},
       ],
-      
-        marks: {
-         
+        marks: { 
           decorators: [
             {title: 'Strong', value: 'strong'},
             {title: 'Emphasis', value: 'em'},
           ],
-        
           annotations: [
             {
               title: 'URL',

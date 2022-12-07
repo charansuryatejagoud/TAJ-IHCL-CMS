@@ -9,10 +9,15 @@ export default{
             type: 'string'
         },
         {
+            title: 'Sub Title',
+            name: 'subTitle',
+            type: 'string'
+        },
+        {
             title: 'Quick Links',
             name: 'quickLinks',
             type: 'array',
-            of: [{ type: 'quickLinks' }]
+            of: [{ type: 'ctaLabel' }]
         },
        
     ]

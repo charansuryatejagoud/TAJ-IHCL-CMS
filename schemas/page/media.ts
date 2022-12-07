@@ -6,35 +6,6 @@ export default{
         mediaType:'image'
     },
     fields:[
-        // {
-        //     title: 'Show Divider For Title',
-        //     name: 'showDividerForTitle',
-        //     type: 'boolean',
-        // },
-        // {
-        //     name: 'video',
-        //     title: 'Video',
-        //     type: 'boolean',
-
-        // },
-        // {
-        //     name: 'allLink',
-        //     title: 'See all',
-        //     type: 'videoButton',
-        //     hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.video),
-
-        // },
-        // {
-        //     name: 'image',
-        //     title: 'Image',
-        //     type: 'boolean',
-
-        // },
-        {
-            title: 'Show Divider For Title',
-            name: 'showDividerForTitle',
-            type: 'boolean'  
-         },
         {
             name: 'mediaType',
             title: 'Media Type',
@@ -46,10 +17,15 @@ export default{
                 ]
             }
         },
-    {
+        {
+            title: "Variant",
+            name: "variant",
+            type: "string",
+        },
+        {
             name: 'alternateAllLink',
             title: 'Alternate See all',
-            type: 'downloadButtons',
+            type: 'brands',
             hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.image),
         },
         {
@@ -58,24 +34,16 @@ export default{
             type: 'image',
         },
         {
-            title: "Variant",
-            name: "variant",
-            type: "string",
-        },
-        {
             title: 'Large Image',
             name: 'largeImage',
             type: 'image',
         },
         {
-            name: 'videoUrl',
-            title: 'Video Url',
+            name: 'video',
+            title: 'Video',
             type: 'file',
-
             options: {
-
                 accept: 'video/mp4'
-
             }
         },
         {

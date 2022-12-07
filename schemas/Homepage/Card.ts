@@ -18,7 +18,6 @@ export default {
       title: "Variant",
       name: "variant",
       type: "string",
-
       options: {
         list: [
           { title: "simple-media", value: "simple-media" },

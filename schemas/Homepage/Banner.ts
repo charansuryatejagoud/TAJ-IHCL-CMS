@@ -27,8 +27,8 @@ export default{
             type: 'string'
         },
         {
-            name: 'mediaType',
-            title: 'Media Type',
+            name: 'media',
+            title: 'Media',
             type: 'string',
             options: {
                 list: [
@@ -77,5 +77,10 @@ export default{
             type: 'array',
             of: [{ type: 'bookingMask' }]
         },
+        {
+            title:'Media Type',
+            name:'mediaType',
+            type:'videoButton',
+          }
     ]
 }

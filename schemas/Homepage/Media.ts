@@ -30,6 +30,7 @@ export default{
         //     type: 'boolean',
 
         // },
+<<<<<<< HEAD
         // {
         //     name: 'alternateAllLink',
         //     title: 'Alternate See all',
@@ -38,6 +39,30 @@ export default{
 
 
         // },
+=======
+        {
+            title: 'Show Divider For Title',
+            name: 'showDividerForTitle',
+            type: 'boolean'  
+         },
+        {
+            name: 'mediaType',
+            title: 'Media Type',
+            type: 'string',
+            options: {
+                list: [
+                    { title: 'video', value: 'video' },
+                    { title: 'image', value: 'image' }
+                ]
+            }
+        },
+    {
+            name: 'alternateAllLink',
+            title: 'Alternate See all',
+            type: 'downloadButtons',
+            hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.image),
+        },
+>>>>>>> be5b7b894b4a9c3455df94967558313ec7df757d
         {
             title: 'Image',
             name: 'image',

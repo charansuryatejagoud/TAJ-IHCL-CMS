@@ -66,8 +66,6 @@ export default createSchema({
     carouselItems,
     variantHeader,
     Media,
-
     demo
-
   ]),
 });

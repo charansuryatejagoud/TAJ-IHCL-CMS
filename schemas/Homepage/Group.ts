@@ -68,7 +68,7 @@ export default {
       type: 'array',
       of: [{ type: 'card' },
            { type: 'tabs' },
-           { type: 'media' }
+           { type: 'media' },
       ]
     },
     {

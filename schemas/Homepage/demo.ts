@@ -31,24 +31,16 @@ export default {
             title: 'Alternate See all',
             type: 'downloadButtons',
             hidden: ({ parent }) => !(parent === null || parent === void 0 ? void 0 : parent.image),
-
-
         },
         {
-
             name: 'fallback',
-
             title: 'Fallback format',
-
             type: 'file',
-
             options: {
-
                 accept: 'video/mp4'
-
             }
-
         },
+<<<<<<< HEAD
         // {
         //     name:'table',
         //     title:'Table',
@@ -76,6 +68,13 @@ export default {
     
 
         
+=======
+        {
+            title: 'Title',
+            name: 'title',
+            type: 'string'
+        }
+>>>>>>> be5b7b894b4a9c3455df94967558313ec7df757d
 
     ]
 }

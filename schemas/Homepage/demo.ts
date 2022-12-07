@@ -40,7 +40,7 @@ export default {
                 accept: 'video/mp4'
             }
         },
-<<<<<<< HEAD
+
         // {
         //     name:'table',
         //     title:'Table',
@@ -68,13 +68,13 @@ export default {
     
 
         
-=======
+
         {
             title: 'Title',
             name: 'title',
             type: 'string'
         }
->>>>>>> be5b7b894b4a9c3455df94967558313ec7df757d
+
 
     ]
 }

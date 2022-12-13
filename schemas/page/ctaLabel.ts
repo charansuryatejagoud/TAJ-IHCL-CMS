@@ -1,6 +1,6 @@
-export default{ 
-    title: 'Quick Links',
-    name: 'quickLinks',
+export default{
+    title: 'Cta Label',
+    name: 'ctaLabel',
     type: 'object',
     fields: [
         {
@@ -12,6 +12,6 @@ export default{
             title: 'Url',
             name: 'url',
             type: 'string'
-        }
+        },
     ]
 }

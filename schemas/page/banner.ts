@@ -55,14 +55,13 @@ export default{
             type: 'file',
             options: {
                 accept: 'video/mp4'
-
             }
         },
         {
             title: 'Chat Bot',
             name: 'chatBot',
             type: 'array',
-            of: [{ type: 'chatBot' }]
+            of: [{ type: 'brands' }]
         },
         {
             title: ' Action',
@@ -77,10 +76,10 @@ export default{
             type: 'array',
             of: [{ type: 'bookingMask' }]
         },
-        {
-            title:'Media Type',
-            name:'mediaType',
-            type:'videoButton',
-          }
+        // {
+        //     title:'Media Type',
+        //     name:'mediaType',
+        //     type:'brands',
+        //   }
     ]
 }

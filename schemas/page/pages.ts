@@ -1,6 +1,6 @@
-
 import { BsFillFileEarmarkPptFill } from "react-icons/bs";
 import { client } from "../static/shared-utils";
+import typography from "./typography";
 export default {
     title: 'Page',
     name: 'page',
@@ -10,31 +10,22 @@ export default {
         {
             title: 'Title',
             name: 'title',
-            type: 'string'
+            type: 'string',
+            typography
         },
         {
             title: 'Path',
             name: 'path',
             type: 'string',
-
             validation: (Rule) =>
-
                 Rule.required().custom(async (path, { document }) => {
-
                     const documentId = document._id.replace("drafts.", "");
-
                     const page = await client.fetch(
-
             `*[_type == "page" && path == "${path}"  && !(_id match "*${documentId}")]{_id}[0]`,
-
           );
-
                     const pageExists = !!page;
-
                     return pageExists ? "This path is already  used." : true;
-
                 }),
-
         },
         {
             title: 'Header',
@@ -45,13 +36,14 @@ export default {
             title: 'Items',
             name: 'items',
             type: 'array',
-            of: [{ type: 'group' },
-            { type: 'card' },
-            { type: 'banner' },
-            { type: 'tabs' },
-            { type: 'carousel' },
-            { type: 'media' },
-            {type:'test'}
+            of: [ { type: 'group' },
+                  { type: 'card' },
+                  { type: 'banner' },
+                  { type: 'tabs' },
+                  { type: 'carousel' },
+                  { type: 'media' },
+                  { type:'test' },
+                  { type: 'accordion' }
             ]
         },
         {

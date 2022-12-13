@@ -58,7 +58,8 @@ export default {
           { title: 'group-with-3-column-cards-grid', value: 'group-with-3-column-cards-grid' },
           { title: '3-cards-carousel', value: '3-cards-carousel' },
           { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' },
-          { title: 'group-with-media', value: 'group-with-media' }
+          { title: 'group-with-media', value: 'group-with-media' },
+          { title: 'information-data', value: 'information-data' }
         ]
       },
     },
@@ -69,6 +70,7 @@ export default {
       of: [{ type: 'card' },
            { type: 'tabs' },
            { type: 'media' },
+           { type: 'information' }
       ]
     },
     {

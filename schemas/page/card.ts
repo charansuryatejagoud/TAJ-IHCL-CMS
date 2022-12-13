@@ -64,12 +64,17 @@ export default {
       type: "image",
     },
     {
-      title: 'Video ',
-      name: 'video',
+      title: 'Video URL ',
+      name: 'videoUrl',
       type: 'file',
       options: {
           accept: 'video/mp4'
       }
+    },
+    {
+      title: 'Video Play Icon',
+      name: 'videoPlayIcon',
+      type: 'image'
     },
     {
       title: "Title",
@@ -91,11 +96,6 @@ export default {
       title: "Sub Content",
       name: "subContent",
       type: "blockContent",
-    },
-    {
-      title: 'Text',
-      name: 'text',
-      type: 'text'
     },
     {
       title: "Action",

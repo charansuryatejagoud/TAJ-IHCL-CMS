@@ -29,6 +29,7 @@ import richText from "./page/richText";
 import primaryButton from "./page/primaryButton";
 import actions from "./page/actions";
 import typography from "./page/typography";
+// import logo from "./page/logo";
 
 
 
@@ -62,7 +63,8 @@ export default createSchema({
     accordion,
     information,
     richText,
-    typography
+    typography,
+    // logo
 
   ]),
 });

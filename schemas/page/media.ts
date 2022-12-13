@@ -73,12 +73,17 @@ export default{
             type: 'image',
         },
         {
-            name: 'video',
-            title: 'Video',
+            title: 'Video URL ',
+            name: 'videoUrl',
             type: 'file',
             options: {
                 accept: 'video/mp4'
             }
+        },
+        {
+            title: 'Video Play Icon',
+            name: 'videoPlayIcon',
+            type: 'image'
         },
         {
             title: 'Focus Title',

@@ -69,17 +69,11 @@ export default{
             type: 'array',
             of: [{ type: 'action' }]
         },
-       
         {
             title: 'Booking Mask',
             name: 'bookingMask',
             type: 'array',
             of: [{ type: 'bookingMask' }]
         },
-        // {
-        //     title:'Media Type',
-        //     name:'mediaType',
-        //     type:'brands',
-        //   }
     ]
 }

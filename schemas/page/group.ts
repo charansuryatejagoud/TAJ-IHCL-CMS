@@ -29,6 +29,11 @@ export default {
       name: 'title',
       type: 'string',
     },
+    // {
+    //   title: 'Menu',
+    //   name: 'menu',
+    //   type: 'menu'
+    // },
     {
       title: 'Large Variant',
       name: 'largeVariant',
@@ -50,7 +55,7 @@ export default {
           { title: 'carousel-with-tabs', value: 'carousel-with-tabs' },
           { title: 'carousel-with-3-column-grid', value: 'carousel-with-3-column-grid' },
           { title: 'transparent-4-cards', value: 'transparent-4-cards' },
-          { title: 'group-with-large-image', value: 'group-with-large-image' },
+          { title: 'group-with-simple-media', value: 'group-with-simple-media' },
           { title: '4-column-rectangle-grid', value: '4-column-rectangle-grid' },
           { title: '2-row-grid', value: '2-row-grid' },
           { title: 'group-with-facilities', value: 'group-with-facilities' },
@@ -59,7 +64,9 @@ export default {
           { title: '3-cards-carousel', value: '3-cards-carousel' },
           { title: 'highlighted-2-cards-carousel', value: 'highlighted-2-cards-carousel' },
           { title: 'group-with-media', value: 'group-with-media' },
-          { title: 'information-data', value: 'information-data' }
+          { title: 'group-with-videoplayer', value: 'group-with-videoplayer' },
+          { title: 'information-data', value: 'information-data' },
+          { title: 'multiple-data', value:'multiple-data'},
         ]
       },
     },
@@ -70,7 +77,8 @@ export default {
       of: [{ type: 'card' },
            { type: 'tabs' },
            { type: 'media' },
-           { type: 'information' }
+           { type: 'information' },
+           { type: 'menu' }
       ]
     },
     {
@@ -109,8 +117,6 @@ export default {
         }
       ]
     },
-   
-    
   ]
 }
   

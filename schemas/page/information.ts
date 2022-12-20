@@ -17,11 +17,7 @@ export default {
             title: 'Sub Title',
             name: 'subTitle',
             type: 'array',
-            of: [
-                {
-                    type: 'string'
-                }
-            ]
+            of: [{ type: 'string' }]
         }
     ]
 }

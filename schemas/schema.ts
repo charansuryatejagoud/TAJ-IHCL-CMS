@@ -29,7 +29,8 @@ import richText from "./page/richText";
 import primaryButton from "./page/primaryButton";
 import actions from "./page/actions";
 import typography from "./page/typography";
-// import logo from "./page/logo";
+import logo from "./page/logo";
+import test from "./page/test";
 
 
 
@@ -64,7 +65,8 @@ export default createSchema({
     information,
     richText,
     typography,
-    // logo
+    logo,
+    test
 
   ]),
 });

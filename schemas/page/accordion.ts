@@ -30,7 +30,7 @@ export  default {
                 title: 'Accordion Items',
                 type: 'array',
                 of: [{ type:"items" }],
-                // group: 'main',
+                group: 'main',
             },
         ],
 }

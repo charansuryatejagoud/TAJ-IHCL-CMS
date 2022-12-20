@@ -3,7 +3,7 @@ import {IoApps, IoListSharp, IoStorefront as Icon} from "react-icons/io5";
 export default {
   title: "Logo",
   name: "logo",
-  type: "docu                                                                                                                                                                                                                           ment",
+  type: "document",
   icon: Icon,
   initialValue: { isNeupassFeatureBrand: true, isNPSavingsFreeShippingBrand: false },
   groups: [

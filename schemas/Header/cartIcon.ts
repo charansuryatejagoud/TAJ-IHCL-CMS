@@ -14,10 +14,4 @@ export default {
             type: 'image'
         }
     ],
-    // preview: {
-    //     select: {
-    //         title: 'primaryCartIcon',
-    //         subtitle: 'secondaryCartIcon',
-    //     },
-    // },
 }

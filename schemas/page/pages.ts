@@ -43,7 +43,7 @@ export default {
                   { type: 'carousel' },
                   { type: 'media' },
                   { type:'test' },
-                  { type: 'accordion' }
+                  { type: 'accordion' },
             ]
         },
         {

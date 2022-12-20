@@ -43,13 +43,15 @@ export default {
           { title: "card-with-links", value: "card-with-links" },
           { title: "card-with-location", value: "card-with-location" },
           { title: "title-with-hoverable-card", value: "title-with-hoverable-card" },
-          { title: "card-with-large-image", value: "card-with-large-image" },
+          { title: "card-with-simple-media", value: "card-with-simple-media" },
           { title: "rectangle-card", value: "rectangle-card" },
           { title: "card-with-right-aligned-title-link", value: "card-with-right-aligned-title-link" },
           { title: "3-column-grid", value: "3-column-grid" },
           { title: "card-with-title-and-sub-titles", value: "card-with-title-and-sub-titles" },
           { title: "card-with-2-buttons-and-link", value: "card-with-2-buttons-and-link" },
-          { title:'card-with-right-aligned-content',value:'card-with-right-aligned-content' }
+          { title:'card-with-right-aligned-content',value:'card-with-right-aligned-content' },
+          { title:'card-with-right-aligned-content-with-link',value:'card-with-right-aligned-content-with-link' },
+          // {title:''}
         ],
       },
     },
@@ -84,6 +86,11 @@ export default {
     {
       title: "Sub Title",
       name: "subTitle",
+      type: "string",
+    },
+    {
+      title: "Description",
+      name: "description",
       type: "string",
     },
     {

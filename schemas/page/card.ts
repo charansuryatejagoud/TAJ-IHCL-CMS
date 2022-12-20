@@ -6,7 +6,7 @@ export default {
   type: "object",
   icon: Icon,
   initialValue: {
-    isHighLighted: 'false',
+    isHighLighted: false,
   },
   fields: [
     {
@@ -18,6 +18,7 @@ export default {
       name: 'mediaType',
       title: 'Media Type',
       type: 'string',
+      initialValue:'image',
       options: {
           list: [
               { title: 'video', value: 'video' },

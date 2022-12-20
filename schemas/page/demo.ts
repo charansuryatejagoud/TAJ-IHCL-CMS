@@ -36,11 +36,6 @@ export default {
                 accept: 'video/mp4'
             }
         },
-        // {
-        //     name:'table',
-        //     title:'Table',
-        //     type:'table'
-        // },
             {
               title: 'Name',
               name: 'name',
